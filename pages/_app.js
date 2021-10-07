@@ -1,11 +1,8 @@
-import { wrapper } from "../store";
-import "../styles/globals.css";
-//Font
+import { ChakraProvider } from "@chakra-ui/react";
 import "@fontsource/roboto";
 import "@fontsource/open-sans";
-//Chakra Provider
-import { ChakraProvider } from "@chakra-ui/react";
-//theme
+import { wrapper } from "../store";
+import "../styles/globals.css";
 import { designTheme } from "../styles/theme";
 
 const App = ({ Component, pageProps }) => {
