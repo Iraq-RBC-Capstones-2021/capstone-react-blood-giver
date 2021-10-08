@@ -7,7 +7,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 function Index() {
   const [display, changeDisplay] = useState("none");
   return (
-    <Flex padding="0 50px">
+    <Flex width="100%">
       <Box my="5" px="3">
         logo
       </Box>
