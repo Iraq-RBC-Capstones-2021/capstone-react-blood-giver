@@ -51,7 +51,12 @@ function Index() {
         >
           Donate
         </Button>
-        <Button color="primary" my={5} backgroundColor="white">
+        <Button
+          color="primary"
+          my={5}
+          backgroundColor="white"
+          border="1px solid #C50E29"
+        >
           Log in
         </Button>
       </Flex>
