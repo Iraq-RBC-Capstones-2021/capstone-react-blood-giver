@@ -43,10 +43,10 @@ function Index() {
           color="white"
           fontSize="15px"
           mr="4"
+          border="2px solid #C50E29"
           _hover={{
             bg: "white",
             color: "primary",
-            border: `2px solid #C50E29`,
           }}
         >
           Donate
