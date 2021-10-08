@@ -8,18 +8,19 @@ function Index() {
   const [display, changeDisplay] = useState("none");
   return (
     <Flex padding="0 50px">
-      <Box my="5" px="3" width="30%">
-        log
+      <Box my="5" px="3">
+        logo
       </Box>
+      <Spacer />
       <Flex>
-        <Flex position="fixed" width="40%">
+        <Flex>
           {/* Desktop */}
           <DesktopContent />
           {/* Mobile */}
           <IconButton
             aria-label="Open Menu"
             size="lg"
-            my="5"
+            my={5}
             mr={2}
             padding="0"
             bg="primary"
@@ -34,7 +35,7 @@ function Index() {
         <MobileContent display={display} changeDisplay={changeDisplay} />
       </Flex>
       <Spacer />
-      <Box>
+      <Flex>
         <Button
           backgroundColor="primary"
           my={5}
@@ -53,7 +54,7 @@ function Index() {
         <Button color="primary" my={5} backgroundColor="white">
           Log in
         </Button>
-      </Box>
+      </Flex>
     </Flex>
   );
 }
