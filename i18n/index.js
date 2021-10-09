@@ -4,10 +4,11 @@ import English from "./compiled-locales/en.json";
 import Arabic from "./compiled-locales/ar.json";
 import { IntlProvider } from "react-intl";
 
-export const DEFAULT_LOCAL = "en";
+const defaultLocale = process.env.DEFAULT_LOCAL || "en";
 
 const LocalizationProvider = ({ children }) => {
-  const { locale = DEFAULT_LOCAL } = useRouter();
+  const { locale = defaultLocale } = useRouter();
+
   const messages = useMemo(() => {
     switch (locale) {
       case "ar":
