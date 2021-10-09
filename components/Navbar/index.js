@@ -15,6 +15,7 @@ function Index() {
   const [display, changeDisplay] = useState("none");
   return (
     <Container maxW="container.xl">
+      {" "}
       <Flex width="100%">
         <Box my="5" px="3">
           logo
