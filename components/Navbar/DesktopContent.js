@@ -9,10 +9,7 @@ const Index = () => {
       width="100%"
       padding="0 20px"
     >
-      <NavItem href="/" label="Home" />
-      <NavItem href="/About" label="About us" />
-      <NavItem href="/Donores" label="Donores" />
-      <NavItem href="/Contact" label="Contact us" />
+      <NavItem />
     </Flex>
   );
 };

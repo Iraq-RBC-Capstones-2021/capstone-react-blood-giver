@@ -28,10 +28,7 @@ const Index = ({ display, changeDisplay }) => {
       </Flex>
 
       <Flex flexDir="column" align="center">
-        <NavItem href="/" label="Home" />
-        <NavItem href="/About" label="About us" />
-        <NavItem href="/Donores" label="Donores" />
-        <NavItem href="/Contact" label="Contact us" />
+        <NavItem />
       </Flex>
     </Flex>
   );
