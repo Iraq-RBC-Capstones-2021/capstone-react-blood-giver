@@ -12,6 +12,7 @@ function index() {
         my="5"
         mr="5"
         w="90%"
+        key={i}
       >
         {item}
       </Button>
