@@ -3,7 +3,7 @@ import { Button } from "@chakra-ui/react";
 const Pages = ["Home", "Contact", "Donores", "About"];
 function index() {
   return Pages.map((item, i) => (
-    <NextLink href={item === "Home" ? "/" : `/${item}`} passHref>
+    <NextLink key={i} href={item === "Home" ? "/" : `/${item}`} passHref>
       <Button
         as="a"
         variant="ghost"
