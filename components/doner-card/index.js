@@ -19,6 +19,7 @@ export default function DonerCard({ name, bloodType, phoneNumber, city }) {
         overflow="hidden"
         bg="#FF867F"
         boxShadow="0 3px 5px #00000044"
+        className={styles.container}
       >
         <Box w="100%" h="70%" borderRadius="xl" bg="white" pl="10px">
           <Grid
