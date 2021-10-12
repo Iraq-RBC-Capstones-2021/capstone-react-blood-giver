@@ -1,5 +1,7 @@
+import Heading from "../../components/about-heading";
+
 function index() {
-  return <h1>About us page </h1>;
+  return <Heading />;
 }
 
 export default index;
