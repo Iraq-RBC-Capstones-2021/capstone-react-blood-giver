@@ -1,28 +1,19 @@
+// styles
 import { Grid, GridItem, Circle } from "@chakra-ui/layout";
 import { Box } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 import { ImLocation } from "react-icons/im";
+import styles from "../../styles/donerCard.module.css";
 
-// DonerCard Component can be resized by providing it with the width argument
-// other informations about the card can be provided to obtain reusability however we want.
-export default function DonerCard({
-  name = "Elyas Salar",
-  bloodType = "B+",
-  phoneNumber = "0772 106 8504",
-  city = "Chamchamal",
-  width = 300,
-}) {
-  let lWidth = width > 300 ? width.toString() + "px" : "300px";
-  let lHeight =
-    width > 300 ? (width * 0.4166666666666667).toString() + "px" : "125px";
-
+export default function DonerCard({ name, bloodType, phoneNumber, city }) {
   return (
     <>
       <Box
         display="flex"
-        w={lWidth}
-        h={lHeight}
+        className={styles.container}
         maxW="350px"
+        width="100%"
+        height="125px"
         alignItems="flex-end"
         borderRadius="xl"
         overflow="hidden"
