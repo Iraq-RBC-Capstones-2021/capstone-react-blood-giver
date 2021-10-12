@@ -11,6 +11,7 @@ import {
 import DesktopContent from "./DesktopContent";
 import MobileContent from "./MobileContent";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import AuthModal from "../AuthModal";
 function Index() {
   const [display, changeDisplay] = useState("none");
   return (
@@ -57,14 +58,7 @@ function Index() {
           >
             Donate
           </Button>
-          <Button
-            color="primary"
-            my={5}
-            backgroundColor="white"
-            border="1px solid #C50E29"
-          >
-            Log in
-          </Button>
+          <AuthModal>Log in</AuthModal>
         </Flex>
       </Flex>
     </Container>
