@@ -7,6 +7,15 @@ export const designTheme = extendTheme({
     skin: "#FF867F",
     darkSkin: "#B55B52",
   },
+  components: {
+    Button: {
+      baseStyle: {
+        borderRadius: "20px",
+        fontWeight: "none",
+      },
+    },
+  },
+
   fonts: {
     heading: "Roboto,Open Sans",
     body: "Roboto,Open Sans",

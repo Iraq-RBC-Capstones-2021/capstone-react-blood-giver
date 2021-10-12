@@ -4,11 +4,12 @@ import "@fontsource/open-sans";
 import { wrapper } from "../store";
 import "../styles/globals.css";
 import { designTheme } from "../styles/theme";
+import NavBar from "../components/Navbar";
 import LocalizationProvider from "../i18n";
-
 const App = ({ Component, pageProps }) => {
   return (
     <ChakraProvider theme={designTheme}>
+      <NavBar />
       <LocalizationProvider>
         <Component {...pageProps} />
       </LocalizationProvider>
