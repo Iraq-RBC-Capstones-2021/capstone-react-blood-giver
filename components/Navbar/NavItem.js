@@ -1,21 +1,26 @@
 import NextLink from "next/link";
 import { Button } from "@chakra-ui/react";
-const Pages = ["Home", "Contact", "Donores", "About"];
+const Pages = [
+  { title: "Home", route: "/" },
+  { title: "Contact", route: "/Contact" },
+  { title: "Donores", route: "/Donores" },
+  { title: "About", route: "/About" },
+];
 function index() {
   return Pages.map((item, i) => (
     <div key={item}>
-      <NextLink href={item === "Home" ? "/" : `/${item}`} passHref>
+      <NextLink href={item.route} passHref>
         <Button
           as="a"
           variant="ghost"
-          aria-label={item}
+          aria-label={item.title}
           color="primary"
           my="5"
           mr="5"
           w="90%"
           key={i}
         >
-          {item}
+          {item.title}
         </Button>
       </NextLink>
     </div>
