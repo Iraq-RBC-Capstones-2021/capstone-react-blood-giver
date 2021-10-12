@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { FormattedMessage } from "react-intl";
 import useLocaleSwitch from "../i18n/useLocaleSwitch";
-
+import LocalizationProvider from "../i18n";
 export default function Home() {
   const { switchLocale } = useLocaleSwitch();
   return (
