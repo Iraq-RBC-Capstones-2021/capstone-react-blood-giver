@@ -13,18 +13,27 @@ export default function Informations() {
       {slideData.map(({ heading, text, image }, index) => {
         if (index % 2 !== 0) {
           return (
-            <Flex color="white" ml={40} mr={40} color="black" mt={40} mb={40}>
+            <Flex
+              color="white"
+              m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
+              color="black"
+              flexDirection={{ base: "column", md: "row" }}
+            >
               <Center
                 flexBasis="50%"
                 flexDirection="column"
                 textAlign="center"
-                pr={20}
-                pl={20}
+                pr={{ base: 10, md: 20 }}
+                pl={{ base: 10, md: 20 }}
               >
-                <Heading mb={15} color="gray.500" size="lg">
+                <Heading
+                  mb={15}
+                  color="gray.500"
+                  fontSize={{ base: "larger", md: "xx-large" }}
+                >
                   {heading}
                 </Heading>
-                <Text>{text}</Text>
+                <Text fontSize={{ base: "small", md: "large" }}>{text}</Text>
               </Center>
               <Center flexBasis="50%" color="black">
                 <Image src={image} />
@@ -33,7 +42,12 @@ export default function Informations() {
           );
         }
         return (
-          <Flex color="white" ml={40} mr={40} color="black" mt={40} mb={40}>
+          <Flex
+            color="white"
+            m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
+            color="black"
+            flexDirection={{ base: "column-reverse", md: "row" }}
+          >
             <Center flexBasis="50%" color="black">
               <Image src={image} />
             </Center>
@@ -41,13 +55,17 @@ export default function Informations() {
               flexBasis="50%"
               flexDirection="column"
               textAlign="center"
-              pr={20}
-              pl={20}
+              pr={{ base: 10, md: 20 }}
+              pl={{ base: 10, md: 20 }}
             >
-              <Heading mb={15} color="gray.500" size="lg">
+              <Heading
+                mb={15}
+                color="gray.500"
+                fontSize={{ base: "larger", md: "xx-large" }}
+              >
                 {heading}
               </Heading>
-              <Text>{text}</Text>
+              <Text fontSize={{ base: "small", md: "large" }}>{text}</Text>
             </Center>
           </Flex>
         );

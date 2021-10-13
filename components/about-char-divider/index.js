@@ -13,15 +13,37 @@ import { Flex, Center, Square } from "@chakra-ui/layout";
 export default function Divider() {
   return (
     <>
-      <Flex color="white" bg="light" h="125px" pt={5}>
-        <Flex height="100px" flexBasis="50%" justifyContent="flex-end">
+      <Flex
+        color="white"
+        bg="light"
+        h={{ base: "350px", sm: "125px" }}
+        pt={5}
+        flexDirection={{ base: "column", sm: "row" }}
+      >
+        <Flex
+          height="100px"
+          flexBasis="60%"
+          justifyContent="flex-end"
+          pr={{ base: "50px" }}
+        >
           <Image src={char3} />
         </Flex>
-        <Flex height="100px" justifyContent="center" flex="1">
+        <Flex
+          height="100px"
+          justifyContent="center"
+          flex="1"
+          pr={{ base: "120px" }}
+        >
           <Image src={char4} />
         </Flex>
       </Flex>
-      <Flex color="white" bg="light" h="125px" pb={5}>
+      <Flex
+        color="white"
+        bg="light"
+        h="125px"
+        pb={5}
+        display={{ base: "none", sm: "flex" }}
+      >
         <Flex height="100px" flexBasis="30%" justifyContent="flex-end">
           <Image src={char1} />
         </Flex>
