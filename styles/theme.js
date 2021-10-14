@@ -6,6 +6,7 @@ export const designTheme = extendTheme({
     light: "#FF867F",
     skin: "#FF867F",
     darkSkin: "#B55B52",
+    grayLight: "#463F3F",
   },
   components: {
     Button: {

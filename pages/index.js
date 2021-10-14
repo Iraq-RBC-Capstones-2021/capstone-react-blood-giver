@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { FormattedMessage } from "react-intl";
 import useLocaleSwitch from "../i18n/useLocaleSwitch";
-import LocalizationProvider from "../i18n";
+import StepperBar from "../components/StepperBar";
 
 export default function Home() {
   const { switchLocale } = useLocaleSwitch();
@@ -22,6 +22,10 @@ export default function Home() {
         <FormattedMessage defaultMessage="one blood donation could saves up to three lives" />
         <button onClick={() => switchLocale("ar")}>Ar</button>
         <button onClick={() => switchLocale("en")}>En</button>
+
+        <div className="w-full mt-5">
+          <StepperBar stepTitles={["Eleigibility", "Registration", ""]} />
+        </div>
       </main>
     </div>
   );
