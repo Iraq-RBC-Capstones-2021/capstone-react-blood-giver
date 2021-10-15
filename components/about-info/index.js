@@ -10,10 +10,11 @@ import { slideData } from "./flex-data";
 export default function Informations() {
   return (
     <>
-      {slideData.map(({ heading, text, image }, index) => {
+      {slideData.map(({ id, heading, text, image }, index) => {
         if (index % 2 !== 0) {
           return (
             <Flex
+              key={id}
               color="white"
               m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
               color="black"
@@ -43,6 +44,7 @@ export default function Informations() {
         }
         return (
           <Flex
+            key={id}
             color="white"
             m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
             color="black"

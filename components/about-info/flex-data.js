@@ -2,20 +2,31 @@ import safe from "../../src/svg/safe.svg";
 import free from "../../src/svg/free.svg";
 import notified from "../../src/svg/notified.svg";
 
+import { FormattedMessage } from "react-intl";
+
 export const slideData = [
   {
-    heading: "Save Life",
-    text: "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !",
+    id: 753,
+    heading: <FormattedMessage defaultMessage="Save Life" />,
+    text: (
+      <FormattedMessage defaultMessage="We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !" />
+    ),
     image: safe,
   },
   {
-    heading: "Free",
-    text: "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost",
+    id: 754,
+    heading: <FormattedMessage defaultMessage="Free" />,
+    text: (
+      <FormattedMessage defaultMessage="Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost" />
+    ),
     image: free,
   },
   {
-    heading: "Get Notified",
-    text: "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !",
+    id: 755,
+    heading: <FormattedMessage defaultMessage="Get Notified" />,
+    text: (
+      <FormattedMessage defaultMessage="Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !" />
+    ),
     image: notified,
   },
 ];

@@ -12,6 +12,8 @@ import { FaFacebookF } from "react-icons/fa";
 // medias
 import char1 from "../../src/svg/char1.svg";
 
+import { FormattedMessage } from "react-intl";
+
 export default function AboutContact() {
   return (
     <Flex
@@ -30,7 +32,7 @@ export default function AboutContact() {
             fontWeight="bold"
             color="gray.500"
           >
-            Marwa Jawad
+            <FormattedMessage defaultMessage="Marwa Jawad" />
           </Text>
         </div>
       </Flex>

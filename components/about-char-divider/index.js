@@ -8,7 +8,7 @@ import char3 from "../../src/svg/char3.svg";
 import char4 from "../../src/svg/char4.svg";
 
 // styles
-import { Flex, Center, Square } from "@chakra-ui/layout";
+import { Flex } from "@chakra-ui/layout";
 
 export default function Divider() {
   return (
