@@ -36,7 +36,7 @@ export default function Informations() {
                 <Text fontSize={{ base: "small", md: "large" }}>{text}</Text>
               </Center>
               <Center flexBasis="50%" color="black">
-                <Image src={image} />
+                <Image src={image} alt="A charachter" />
               </Center>
             </Flex>
           );
@@ -49,7 +49,7 @@ export default function Informations() {
             flexDirection={{ base: "column-reverse", md: "row" }}
           >
             <Center flexBasis="50%" color="black">
-              <Image src={image} />
+              <Image src={image} alt="A charachter" />
             </Center>
             <Center
               flexBasis="50%"

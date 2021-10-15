@@ -26,7 +26,7 @@ export default function AboutContact() {
         justifyContent={{ base: "center", sm: "flex-end" }}
       >
         <div>
-          <Image src={char1} />
+          <Image src={char1} alt="A charachter" />
           <Text
             fontSize={{ base: "lg", sm: "larger" }}
             fontWeight="bold"

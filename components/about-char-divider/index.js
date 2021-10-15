@@ -26,7 +26,7 @@ export default function Divider() {
           justifyContent="flex-end"
           pr={{ base: "50px" }}
         >
-          <Image src={char3} />
+          <Image src={char3} alt="charachter in divider section" />
         </Flex>
         <Flex
           height="100px"
@@ -34,7 +34,7 @@ export default function Divider() {
           flex="1"
           pr={{ base: "120px" }}
         >
-          <Image src={char4} />
+          <Image src={char4} alt="charachter in divider section" />
         </Flex>
       </Flex>
       <Flex
@@ -45,10 +45,10 @@ export default function Divider() {
         display={{ base: "none", sm: "flex" }}
       >
         <Flex height="100px" flexBasis="30%" justifyContent="flex-end">
-          <Image src={char1} />
+          <Image src={char1} alt="charachter in divider section" />
         </Flex>
         <Flex height="100px" flex="1" justifyContent="center">
-          <Image src={char2} />
+          <Image src={char2} alt="charachter in divider section" />
         </Flex>
       </Flex>
     </>
