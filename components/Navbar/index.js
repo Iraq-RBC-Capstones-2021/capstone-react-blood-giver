@@ -46,7 +46,7 @@ function Index() {
           <Button
             backgroundColor="primary"
             my={5}
-            padding="0 25px"
+            // padding="0 25px"
             color="white"
             fontSize="15px"
             mr="4"
