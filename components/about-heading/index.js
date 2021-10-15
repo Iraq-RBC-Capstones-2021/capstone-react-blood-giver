@@ -5,7 +5,7 @@ import { FormattedMessage } from "react-intl";
 
 export default function AboutHeading() {
   return (
-    <Box maxW="32rem" textAlign="center" maxW="none" mt={10} mb={10}>
+    <Box textAlign="center" maxW="none" mt={10} mb={10}>
       <Heading
         mb={6}
         color="skin"
