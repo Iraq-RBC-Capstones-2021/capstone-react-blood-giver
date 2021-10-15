@@ -15,7 +15,6 @@ export default function Informations() {
           return (
             <Flex
               key={id}
-              color="white"
               m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
               color="black"
               flexDirection={{ base: "column", md: "row" }}
@@ -45,7 +44,6 @@ export default function Informations() {
         return (
           <Flex
             key={id}
-            color="white"
             m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
             color="black"
             flexDirection={{ base: "column-reverse", md: "row" }}
