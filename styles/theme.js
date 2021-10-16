@@ -6,7 +6,7 @@ export const designTheme = extendTheme({
     light: "#FF867F",
     skin: "#FF867F",
     darkSkin: "#B55B52",
-    grayLight: "#463F3F",
+    grayLight: "#979797",
     primaryScheme: {
       50: "#FFFFFF",
       100: "#FF867F",
@@ -24,6 +24,15 @@ export const designTheme = extendTheme({
         borderRadius: "20px",
         fontWeight: "none",
         padding: "0 25px",
+      },
+    },
+    FormControl: {
+      baseStyle: {
+        color: "red",
+      },
+      defaultProps: {
+        width: "auto",
+        flex: "1",
       },
     },
   },

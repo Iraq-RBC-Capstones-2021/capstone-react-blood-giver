@@ -1,29 +1,27 @@
 import { Checkbox } from "@chakra-ui/checkbox";
 import { Box, Text, VStack } from "@chakra-ui/layout";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { FormattedMessage } from "react-intl";
 import Image from "next/image";
 import CustomButton from "../CustomButton";
 import sorryImg from "../../src/svg/sorry.svg";
+import RegisterContext from "./StateContext";
 
-const CheckEligibilityStep = ({ goToNextStep }) => {
-  const [formState, setFormState] = useState({
-    isProperWeight: false,
-    isProperAge: false,
-  });
+const CheckEligibilityStep = () => {
+  const { eligState, setEligState, goToNextStep } = useContext(RegisterContext);
 
   const [notEligible, setNotEligible] = useState(false);
 
   const handleOnChange = (e) => {
-    setFormState({
-      ...formState,
+    setEligState({
+      ...eligState,
       [e.target.name]: e.target.checked,
     });
   };
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    if (formState.isProperAge && formState.isProperWeight) {
+    if (eligState.isProperAge && eligState.isProperWeight) {
       goToNextStep && goToNextStep();
       return;
     }
@@ -33,8 +31,8 @@ const CheckEligibilityStep = ({ goToNextStep }) => {
 
   if (notEligible) {
     return (
-      <VStack width="full" justifyContent="center" alignItems="center" mt="20">
-        <Image src={sorryImg} alt="Sorry" />
+      <VStack width="full" justifyContent="center" alignItems="center">
+        <Image width={300} height={300} src={sorryImg} alt="Sorry" />
         <Text fontWeight="bold" fontSize="3xl" textAlign="center">
           <FormattedMessage defaultMessage="Really sorry you are not eligible !! " />
         </Text>
@@ -42,7 +40,7 @@ const CheckEligibilityStep = ({ goToNextStep }) => {
     );
   }
   return (
-    <Box width="full" mt="20" onSubmit={handleOnSubmit}>
+    <Box width="full" onSubmit={handleOnSubmit}>
       <form className="w-full">
         <VStack width="70%" spacing="32" mx="auto">
           <Box width="full" display="flex" justifyContent="space-between">
@@ -53,7 +51,7 @@ const CheckEligibilityStep = ({ goToNextStep }) => {
               mx="2"
               name="isProperWeight"
               size="lg"
-              isChecked={formState.isProperWeight}
+              isChecked={eligState.isProperWeight}
               colorScheme="darkScheme"
               onChange={handleOnChange}
               borderColor="dark"
@@ -68,7 +66,7 @@ const CheckEligibilityStep = ({ goToNextStep }) => {
               mx="2"
               name="isProperAge"
               size="lg"
-              isChecked={formState.isProperAge}
+              isChecked={eligState.isProperAge}
               colorScheme="darkScheme"
               onChange={handleOnChange}
               borderColor="dark"
@@ -85,5 +83,7 @@ const CheckEligibilityStep = ({ goToNextStep }) => {
     </Box>
   );
 };
+
+CheckEligibilityStep.title = <FormattedMessage defaultMessage="Eligibility" />;
 
 export default CheckEligibilityStep;

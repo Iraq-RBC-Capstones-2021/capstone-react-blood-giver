@@ -9,7 +9,7 @@ const StepperBar = ({ stepTitles, currentStep }) => {
       {stepTitles.map((title, i) => {
         return (
           <Step
-            key={title}
+            key={i}
             status={
               i === currentStep
                 ? "active"
@@ -27,7 +27,7 @@ const StepperBar = ({ stepTitles, currentStep }) => {
 };
 
 StepperBar.propTypes = {
-  stepTitles: PropTypes.arrayOf(PropTypes.string).isRequired,
+  stepTitles: PropTypes.arrayOf(PropTypes.object).isRequired,
   currentStep: PropTypes.number.isRequired,
 };
 
