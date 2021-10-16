@@ -50,10 +50,8 @@ export default function Register() {
         handleChange,
         handleBlur,
         handleSubmit,
-
         eligState,
         setEligState,
-
         goToNextStep,
         backToPrevStep,
       }}
