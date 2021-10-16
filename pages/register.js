@@ -36,7 +36,6 @@ export default function Register() {
     validationSchema: registerSchema,
     validateOnBlur: true,
     onSubmit: (values) => {
-      // console.log(values);
       goToNextStep && goToNextStep();
     },
   });
