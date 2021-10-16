@@ -66,7 +66,7 @@ const index = () => {
       <text transform="matrix(0.7588 0 0 1 4.8252 30.3604)" class="st8 st9">
         <FormattedMessage defaultMessage="One blood" />
       </text>
-      <text transform="matrix(0.7588 0 0 1 4.8252 33.96)" class="st8 st9">
+      <text transform="matrix(0.7588 0 0 1 4.8252 33.96)" className="st8 st9">
         <FormattedMessage defaultMessage="donation" />
       </text>
     </svg>
