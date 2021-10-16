@@ -1,20 +1,17 @@
-// hooks
 import Image from "next/image";
 
-// style
 import { Flex, Center, Text, Heading } from "@chakra-ui/layout";
 
-// data
 import { slideData } from "./flex-data";
 
 export default function Informations() {
   return (
     <>
-      {slideData.map(({ heading, text, image }, index) => {
+      {slideData.map(({ id, heading, text, image }, index) => {
         if (index % 2 !== 0) {
           return (
             <Flex
-              color="white"
+              key={id}
               m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
               color="black"
               flexDirection={{ base: "column", md: "row" }}
@@ -36,20 +33,20 @@ export default function Informations() {
                 <Text fontSize={{ base: "small", md: "large" }}>{text}</Text>
               </Center>
               <Center flexBasis="50%" color="black">
-                <Image src={image} />
+                <Image src={image} alt="A charachter" />
               </Center>
             </Flex>
           );
         }
         return (
           <Flex
-            color="white"
+            key={id}
             m={{ base: "125px 5px", sm: 10, md: 20, xl: 40 }}
             color="black"
             flexDirection={{ base: "column-reverse", md: "row" }}
           >
             <Center flexBasis="50%" color="black">
-              <Image src={image} />
+              <Image src={image} alt="A charachter" />
             </Center>
             <Center
               flexBasis="50%"
