@@ -1,4 +1,7 @@
 {
+  "4G5DSg": {
+    "defaultMessage": "Can't be under 16"
+  },
   "8Zq/0D": {
     "defaultMessage": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
   },
@@ -17,6 +20,9 @@
   "eLIPeV": {
     "defaultMessage": "Welcome at Blood Giver"
   },
+  "5JKGJU": {
+    "defaultMessage": "Really sorry you are not eligible !!"
+  },
   "jta3SF": {
     "defaultMessage": "Marwa Jawad"
   },
@@ -32,7 +38,64 @@
   "w+q+nu": {
     "defaultMessage": "What is this all about?"
   },
-  "zhyiim": {
-    "defaultMessage": "one blood donation could saves up to three lives"
+  "9+Ddtu": {
+    "defaultMessage": "Next"
+  },
+  "9oNQSC": {
+    "defaultMessage": "Age"
+  },
+  "BFaN95": {
+    "defaultMessage": "Eligibility"
+  },
+  "ByuOj8": {
+    "defaultMessage": "Invalid email"
+  },
+  "HAlOn1": {
+    "defaultMessage": "Name"
+  },
+  "JJNc3c": {
+    "defaultMessage": "Previous"
+  },
+  "NFKtpG": {
+    "defaultMessage": "Blood Type"
+  },
+  "R8PtYu": {
+    "defaultMessage": "Congratulations, You’re able to give blood."
+  },
+  "Seanpx": {
+    "defaultMessage": "Required"
+  },
+  "TE4fIS": {
+    "defaultMessage": "City"
+  },
+  "TVyg5p": {
+    "defaultMessage": "Registration completed successfully"
+  },
+  "WxIf83": {
+    "defaultMessage": "Can't be above 60"
+  },
+  "aYIUar": {
+    "defaultMessage": "Thank you!"
+  },
+  "eohFfF": {
+    "defaultMessage": "Too short!"
+  },
+  "lH0lvy": {
+    "defaultMessage": "Are you above 16?"
+  },
+  "luS1O6": {
+    "defaultMessage": "Is your current weight is more than 50kg (110 pounds)?"
+  },
+  "mhMdjg": {
+    "defaultMessage": "feedback"
+  },
+  "qv7ied": {
+    "defaultMessage": "Registration"
+  },
+  "rItxWi": {
+    "defaultMessage": "Too long!"
+  },
+  "sy+pv5": {
+    "defaultMessage": "Email"
   }
 }
