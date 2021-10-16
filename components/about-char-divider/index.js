@@ -1,13 +1,10 @@
-// hooks
 import Image from "next/image";
 
-// medias
 import char1 from "../../src/svg/char1.svg";
 import char2 from "../../src/svg/char2.svg";
 import char3 from "../../src/svg/char3.svg";
 import char4 from "../../src/svg/char4.svg";
 
-// styles
 import { Flex } from "@chakra-ui/layout";
 
 export default function Divider() {

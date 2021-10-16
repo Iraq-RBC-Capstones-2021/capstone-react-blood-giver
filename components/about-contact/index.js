@@ -1,7 +1,5 @@
-// hooks
 import Image from "next/image";
 
-//styles
 import { Flex, Box, Text } from "@chakra-ui/layout";
 import { Textarea } from "@chakra-ui/textarea";
 import { BsTwitter } from "react-icons/bs";
@@ -9,7 +7,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 
-// medias
 import char1 from "../../src/svg/char1.svg";
 
 import { FormattedMessage } from "react-intl";

@@ -1,10 +1,7 @@
-// hooks
 import Image from "next/image";
 
-// style
 import { Flex, Center, Text, Heading } from "@chakra-ui/layout";
 
-// data
 import { slideData } from "./flex-data";
 
 export default function Informations() {

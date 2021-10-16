@@ -1,4 +1,3 @@
-// style
 import { Heading, Text, Box } from "@chakra-ui/layout";
 
 import { FormattedMessage } from "react-intl";
