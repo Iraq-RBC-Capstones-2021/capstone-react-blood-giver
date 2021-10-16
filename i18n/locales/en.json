@@ -1,9 +1,24 @@
 {
+  "5m9eHD": {
+    "defaultMessage": "Step 1"
+  },
+  "8nhOeI": {
+    "defaultMessage": "Thank you"
+  },
+  "JM5+yp": {
+    "defaultMessage": "In this step, you will fill some information about yourself like Name, Email, City, Blood Type"
+  },
+  "apIdgF": {
+    "defaultMessage": "Let's go, you are now one of the heroes who help people who need blood and you are in the reach of society, thank you"
+  },
   "eLIPeV": {
     "defaultMessage": "Welcome at Blood Giver"
   },
-  "t/eDuu": {
-    "defaultMessage": "Hello world"
+  "gQhbDv": {
+    "defaultMessage": "In the first step, we are asking you two questions to know if you are ready and eligible for donating blood"
+  },
+  "liqHzt": {
+    "defaultMessage": "Step 2"
   },
   "zhyiim": {
     "defaultMessage": "one blood donation could saves up to three lives"
