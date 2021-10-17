@@ -9,8 +9,8 @@ import LocalizationProvider from "../i18n";
 const App = ({ Component, pageProps }) => {
   return (
     <ChakraProvider theme={designTheme}>
-      <NavBar />
       <LocalizationProvider>
+        <NavBar />
         <Component {...pageProps} />
       </LocalizationProvider>
     </ChakraProvider>
