@@ -3,7 +3,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 import { useFormik } from "formik";
 import validationSchema from "./validationScema";
 import FormInput from "./FormInput";
-function Index() {
+function Contact() {
   const {
     values,
     errors,
@@ -47,4 +47,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Contact;
