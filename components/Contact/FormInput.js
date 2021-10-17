@@ -1,7 +1,7 @@
 import { Spacer, Stack, Textarea, Flex, Box, Button } from "@chakra-ui/react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { FormControl, FormErrorMessage } from "@chakra-ui/form-control";
-import CustomInput from "../../components/CustomInput";
+import CustomInput from "../CustomInput";
 function Index({ values, errors, touched, handleBlur, handleChange }) {
   const intl = useIntl();
   return (
