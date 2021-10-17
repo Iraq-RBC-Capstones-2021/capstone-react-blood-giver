@@ -8,7 +8,7 @@ const Pages = [
 ];
 function index() {
   return Pages.map((item, i) => (
-    <div key={item}>
+    <div key={i}>
       <NextLink href={item.route} passHref>
         <Button
           as="a"
