@@ -1,11 +1,101 @@
 {
+  "4G5DSg": {
+    "defaultMessage": "Can't be under 16"
+  },
+  "8Zq/0D": {
+    "defaultMessage": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  },
+  "Ehd9xn": {
+    "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  },
+  "I8yZ9h": {
+    "defaultMessage": "Save Life"
+  },
+  "ZjDH42": {
+    "defaultMessage": "About Us"
+  },
+  "eEek+s": {
+    "defaultMessage": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+  },
   "eLIPeV": {
     "defaultMessage": "Welcome at Blood Giver"
   },
-  "t/eDuu": {
-    "defaultMessage": "Hello world"
+  "5JKGJU": {
+    "defaultMessage": "Really sorry you are not eligible !!"
   },
-  "zhyiim": {
-    "defaultMessage": "one blood donation could saves up to three lives"
+  "jta3SF": {
+    "defaultMessage": "Marwa Jawad"
+  },
+  "s/4P/W": {
+    "defaultMessage": "Get Notified"
+  },
+  "tf1lIh": {
+    "defaultMessage": "Free"
+  },
+  "tvf/bG": {
+    "defaultMessage": "We solve the problem of blood emergencies by connecting blood donors directly with people in blood need."
+  },
+  "w+q+nu": {
+    "defaultMessage": "What is this all about?"
+  },
+  "9+Ddtu": {
+    "defaultMessage": "Next"
+  },
+  "9oNQSC": {
+    "defaultMessage": "Age"
+  },
+  "BFaN95": {
+    "defaultMessage": "Eligibility"
+  },
+  "ByuOj8": {
+    "defaultMessage": "Invalid email"
+  },
+  "HAlOn1": {
+    "defaultMessage": "Name"
+  },
+  "JJNc3c": {
+    "defaultMessage": "Previous"
+  },
+  "NFKtpG": {
+    "defaultMessage": "Blood Type"
+  },
+  "R8PtYu": {
+    "defaultMessage": "Congratulations, You’re able to give blood."
+  },
+  "Seanpx": {
+    "defaultMessage": "Required"
+  },
+  "TE4fIS": {
+    "defaultMessage": "City"
+  },
+  "TVyg5p": {
+    "defaultMessage": "Registration completed successfully"
+  },
+  "WxIf83": {
+    "defaultMessage": "Can't be above 60"
+  },
+  "aYIUar": {
+    "defaultMessage": "Thank you!"
+  },
+  "eohFfF": {
+    "defaultMessage": "Too short!"
+  },
+  "lH0lvy": {
+    "defaultMessage": "Are you above 16?"
+  },
+  "luS1O6": {
+    "defaultMessage": "Is your current weight is more than 50kg (110 pounds)?"
+  },
+  "mhMdjg": {
+    "defaultMessage": "feedback"
+  },
+  "qv7ied": {
+    "defaultMessage": "Registration"
+  },
+  "rItxWi": {
+    "defaultMessage": "Too long!"
+  },
+  "sy+pv5": {
+    "defaultMessage": "Email"
   }
 }
