@@ -1,7 +1,7 @@
 import { Text, Container, Flex } from "@chakra-ui/react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { useFormik } from "formik";
-import validationSchema from "./validationScema";
+import validationSchema from "../../components/contactValidation";
 import FormInput from "./FormInput";
 function Contact() {
   const {
