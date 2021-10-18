@@ -6,7 +6,7 @@ function Content({ slide }) {
       <Flex display={["block", "block", "flex", "flex"]}>
         <Box
           w={["100%", "100%", "50%", "50%"]}
-          p="10px"
+          p="30px"
           border="2px"
           borderColor="gray.100"
           borderRadius="lg"
