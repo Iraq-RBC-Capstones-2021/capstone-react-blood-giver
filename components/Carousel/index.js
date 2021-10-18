@@ -2,7 +2,7 @@ import React from "react";
 import { Text } from "@chakra-ui/react";
 import { FormattedMessage } from "react-intl";
 import Structure from "./Structure";
-function index() {
+function index({ direction, interval }) {
   const slides = [
     {
       text: {
@@ -34,16 +34,10 @@ function index() {
   ];
   return (
     <>
-      <Text
-        fontSize="3xl"
-        align="center"
-        marginTop="10"
-        color="skin"
-        fontWeight="bold"
-      >
+      <Text fontSize="40" color="light" my="8" textAlign="center">
         How It Works
       </Text>
-      <Structure slides={slides} />
+      <Structure slides={slides} direction={direction} interval={interval} />
     </>
   );
 }

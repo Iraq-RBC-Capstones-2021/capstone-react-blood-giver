@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import { Flex } from "@chakra-ui/react";
 import Content from "./Content";
 
-function Structure({ slides }) {
+function Structure({ slides, interval, direction }) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slidesCount = slides.length;
@@ -18,15 +18,15 @@ function Structure({ slides }) {
     mx: `-${currentSlide * 100}%`,
   };
 
-  const SLIDES_INTERVAL_TIME = 5000;
-  const ANIMATION_DIRECTION = "right";
+  const SLIDES_INTERVAL_TIME = interval;
+  const ANIMATION_DIRECTION = direction;
 
   useEffect(() => {
     const automatedSlide = setInterval(() => {
       ANIMATION_DIRECTION.toLowerCase() === "left" ? prevSlide() : nextSlide();
     }, SLIDES_INTERVAL_TIME);
     return () => clearInterval(automatedSlide);
-  }, [prevSlide, nextSlide]);
+  }, [prevSlide, nextSlide, ANIMATION_DIRECTION, SLIDES_INTERVAL_TIME]);
 
   return (
     <Flex w="full" p={10} alignItems="center" justifyContent="center">
