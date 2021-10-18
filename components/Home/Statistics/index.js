@@ -4,7 +4,7 @@ import statistics from "./statistics";
 function index() {
   return (
     <Flex bg="#FAFAFA" mt="5">
-      <Container maxW="container.xl" px="40">
+      <Container maxW="container.sm">
         <Stack direction={["column", "row"]} spacing="50%" py="5">
           {statistics.map((item) => (
             <Widget item={item} key={item.id} />

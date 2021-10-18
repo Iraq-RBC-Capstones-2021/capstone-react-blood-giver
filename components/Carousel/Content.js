@@ -5,18 +5,14 @@ function Content({ slide }) {
     <Box flex="none" boxSize="full">
       <Flex display={["block", "block", "flex", "flex"]}>
         <Box
-          p="10"
           w={["100%", "100%", "50%", "50%"]}
+          p="30px"
           border="2px"
           borderColor="gray.100"
           borderRadius="lg"
           margin={["0px 0px 10px 0px", "0px 0px 10px 0px", "5", "5"]}
         >
-          <Text
-            fontSize={["xl", "xl", "3xl", "3xl"]}
-            color="#979797"
-            marginBottom="5"
-          >
+          <Text fontSize={["xl", "xl", "3xl", "3xl"]} color="#979797" mb="5">
             {slide.text.header}
           </Text>
           <Text fontSize={["md", "md", "xl", "xl"]}>{slide.text.body}</Text>
