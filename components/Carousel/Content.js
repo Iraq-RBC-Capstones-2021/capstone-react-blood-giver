@@ -12,7 +12,7 @@ function Content({ slide }) {
           borderRadius="lg"
           margin={["0px 0px 10px 0px", "0px 0px 10px 0px", "5", "5"]}
         >
-          <Text fontSize={["xl", "xl", "3xl", "3xl"]} color="#979797">
+          <Text fontSize={["xl", "xl", "3xl", "3xl"]} color="#979797" mb="5">
             {slide.text.header}
           </Text>
           <Text fontSize={["md", "md", "xl", "xl"]}>{slide.text.body}</Text>
