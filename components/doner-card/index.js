@@ -11,7 +11,7 @@ export default function DonerCard({ name, bloodType, phoneNumber, city }) {
       <Box
         display="flex"
         className={styles.container}
-        maxW="350px"
+        maxW="290px"
         width="100%"
         height="125px"
         alignItems="flex-end"
