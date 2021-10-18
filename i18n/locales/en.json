@@ -1,12 +1,33 @@
 {
+  "+GQsnE": {
+    "defaultMessage": "If you do feel faint or fatigued,simply lie down until you feel better. think that you have about 10 pints of blood in your body. Roughly 1 pint is given."
+  },
+  "0jPqLn": {
+    "defaultMessage": "Blood Giver"
+  },
+  "4G5DSg": {
+    "defaultMessage": "Can't be under 16"
+  },
   "8Zq/0D": {
     "defaultMessage": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  },
+  "9WRlF4": {
+    "defaultMessage": "Send"
   },
   "Ehd9xn": {
     "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
   },
+  "HGP1gH": {
+    "defaultMessage": "Connect us"
+  },
   "I8yZ9h": {
     "defaultMessage": "Save Life"
+  },
+  "NzeJGL": {
+    "defaultMessage": "If you want to get some help or just to ask us a question,use the form below."
+  },
+  "T7Ry38": {
+    "defaultMessage": "Message"
   },
   "ZjDH42": {
     "defaultMessage": "About Us"
@@ -17,11 +38,17 @@
   "eLIPeV": {
     "defaultMessage": "Welcome at Blood Giver"
   },
+  "5JKGJU": {
+    "defaultMessage": "Really sorry you are not eligible !!"
+  },
   "jta3SF": {
     "defaultMessage": "Marwa Jawad"
   },
   "s/4P/W": {
     "defaultMessage": "Get Notified"
+  },
+  "sy+pv5": {
+    "defaultMessage": "Email"
   },
   "tf1lIh": {
     "defaultMessage": "Free"
@@ -32,7 +59,106 @@
   "w+q+nu": {
     "defaultMessage": "What is this all about?"
   },
-  "zhyiim": {
-    "defaultMessage": "one blood donation could saves up to three lives"
+  "1kSPXR": {
+    "defaultMessage": "You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure."
+  },
+  "3xOgpy": {
+    "defaultMessage": "I'm Afraid I'll Faint"
+  },
+  "4+EIGl": {
+    "defaultMessage": "Donores"
+  },
+  "IFkDw5": {
+    "defaultMessage": "Cities"
+  },
+  "JpkCu5": {
+    "defaultMessage": "One blood"
+  },
+  "SABfLp": {
+    "defaultMessage": "Is it Safe to Donate?"
+  },
+  "SoRX2/": {
+    "defaultMessage": "to three lives"
+  },
+  "VD79MZ": {
+    "defaultMessage": "Find Donores"
+  },
+  "dZrxtL": {
+    "defaultMessage": "We Save Lives"
+  },
+  "g+Kb6R": {
+    "defaultMessage": "Could saves up"
+  },
+  "mgtt/i": {
+    "defaultMessage": "donation"
+  },
+  "n4zsNo": {
+    "defaultMessage": "Did you know ?"
+  },
+  "qk88Mz": {
+    "defaultMessage": "fear of needles certainly prevents some people from donating blood. But it is worth to spend a few minutes facing your fears to save someone’s live."
+  },
+  "s0aBmb": {
+    "defaultMessage": "I Don't Like Needles"
+  },
+  "xKGP//": {
+    "defaultMessage": "Find blood donors near your location"
+  },
+  "9+Ddtu": {
+    "defaultMessage": "Next"
+  },
+  "9oNQSC": {
+    "defaultMessage": "Age"
+  },
+  "BFaN95": {
+    "defaultMessage": "Eligibility"
+  },
+  "ByuOj8": {
+    "defaultMessage": "Invalid email"
+  },
+  "HAlOn1": {
+    "defaultMessage": "Name"
+  },
+  "JJNc3c": {
+    "defaultMessage": "Previous"
+  },
+  "NFKtpG": {
+    "defaultMessage": "Blood Type"
+  },
+  "R8PtYu": {
+    "defaultMessage": "Congratulations, You’re able to give blood."
+  },
+  "Seanpx": {
+    "defaultMessage": "Required"
+  },
+  "TE4fIS": {
+    "defaultMessage": "City"
+  },
+  "TVyg5p": {
+    "defaultMessage": "Registration completed successfully"
+  },
+  "WxIf83": {
+    "defaultMessage": "Can't be above 60"
+  },
+  "aYIUar": {
+    "defaultMessage": "Thank you!"
+  },
+  "eohFfF": {
+    "defaultMessage": "Too short!"
+  },
+  "lH0lvy": {
+    "defaultMessage": "Are you above 16?"
+  },
+  "luS1O6": {
+    "defaultMessage": "Is your current weight is more than 50kg (110 pounds)?"
+  },
+  "mhMdjg": {
+    "defaultMessage": "feedback"
+  },
+  "qv7ied": {
+    "defaultMessage": "Registration"
+  },
+  "rItxWi": {
+    "defaultMessage": "Too long!"
   }
 }
