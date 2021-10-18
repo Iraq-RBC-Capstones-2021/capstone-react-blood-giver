@@ -18,9 +18,6 @@ function Structure({ slides, interval, direction }) {
     mx: `-${currentSlide * 100}%`,
   };
 
-  const SLIDES_INTERVAL_TIME = interval;
-  const ANIMATION_DIRECTION = direction;
-
   useEffect(() => {
     const automatedSlide = setInterval(() => {
       direction.toLowerCase() === "left" ? prevSlide() : nextSlide();
