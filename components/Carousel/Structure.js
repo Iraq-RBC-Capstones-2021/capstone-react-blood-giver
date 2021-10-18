@@ -23,10 +23,10 @@ function Structure({ slides, interval, direction }) {
 
   useEffect(() => {
     const automatedSlide = setInterval(() => {
-      ANIMATION_DIRECTION.toLowerCase() === "left" ? prevSlide() : nextSlide();
-    }, SLIDES_INTERVAL_TIME);
+      direction.toLowerCase() === "left" ? prevSlide() : nextSlide();
+    }, interval);
     return () => clearInterval(automatedSlide);
-  }, [prevSlide, nextSlide, ANIMATION_DIRECTION, SLIDES_INTERVAL_TIME]);
+  }, [prevSlide, nextSlide, direction, interval]);
 
   return (
     <Flex w="full" p={10} alignItems="center" justifyContent="center">
