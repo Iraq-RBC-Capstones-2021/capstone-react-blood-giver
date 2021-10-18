@@ -28,37 +28,6 @@ function index() {
         <Box width="350px" margin="5">
           <DonorCard {...data} />
         </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
       </Flex>
     </Container>
   );
