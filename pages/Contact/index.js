@@ -24,12 +24,12 @@ function Contact() {
   });
   const intl = useIntl();
   return (
-    <Container maxW="container.xl">
+    <Container maxW="container.sm">
       <Flex flexDirection="column" alignItems="center" justifyContent="center">
-        <Text color="light" fontSize="60px">
+        <Text color="light" fontSize="60px" pb="5">
           <FormattedMessage defaultMessage="Connect us" />
         </Text>
-        <Text fontSize="17px" w="600px" mb="40px" align="center">
+        <Text fontSize="22px" mb="20px" align="center">
           <FormattedMessage
             defaultMessage=" If you want to get some help or just to ask us a question,use the form
           below."

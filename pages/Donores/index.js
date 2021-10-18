@@ -3,13 +3,32 @@ import DonorCard from "../../components/doner-card";
 import BloodType from "../../components/DropDown/BloodType";
 import City from "../../components/DropDown/City";
 function index() {
-  const data = {
-    name: "ahmad saman",
-    bloodType: "AB+",
-    phoneNumber: "07508401999",
-    city: "erbil",
-  };
-
+  const data = [
+    {
+      name: "ahmad saman",
+      bloodType: "AB+",
+      phoneNumber: "07508401999",
+      city: "erbil",
+    },
+    {
+      name: "Marwa jawad",
+      bloodType: "O+",
+      phoneNumber: "07508401999",
+      city: "erbil",
+    },
+    {
+      name: "Mahmoud Kassah",
+      bloodType: "B+",
+      phoneNumber: "07508401999",
+      city: "erbil",
+    },
+    {
+      name: "Elyas",
+      bloodType: "A+",
+      phoneNumber: "07508401999",
+      city: "erbil",
+    },
+  ];
   return (
     <Container maxW="container.xl">
       <Box textAlign="center">
@@ -24,10 +43,10 @@ function index() {
         <City />
         <BloodType />
       </Box>
-      <Flex wrap="wrap" marginY="5" justifyContent="center">
-        <Box width="350px" margin="5">
-          <DonorCard {...data} />
-        </Box>
+      <Flex wrap="wrap" gridGap="20px" marginY="5" justifyContent="center">
+        {data.map((item) => (
+          <DonorCard key={item.name} {...item} />
+        ))}
       </Flex>
     </Container>
   );
