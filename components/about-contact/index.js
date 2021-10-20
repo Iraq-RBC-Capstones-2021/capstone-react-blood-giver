@@ -7,14 +7,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 
-import char1 from "../../src/svg/char1.svg";
+import char2 from "../../src/svg/char2.svg";
 
 import { FormattedMessage } from "react-intl";
 
 export default function AboutContact() {
   return (
     <Flex
-      m={{ base: 2, sm: 10, md: 20 }}
+      m={{ base: 2, md: 5, lg: 20 }}
       flexDirection={{ base: "column", sm: "row" }}
     >
       <Flex
@@ -23,13 +23,13 @@ export default function AboutContact() {
         justifyContent={{ base: "center", sm: "flex-end" }}
       >
         <div>
-          <Image src={char1} alt="A charachter" />
+          <Image src={char2} alt="A charachter" />
           <Text
             fontSize={{ base: "lg", sm: "larger" }}
             fontWeight="bold"
             color="gray.500"
           >
-            <FormattedMessage defaultMessage="Marwa Jawad" />
+            <FormattedMessage defaultMessage="Developer team" />
           </Text>
         </div>
       </Flex>
@@ -45,15 +45,21 @@ export default function AboutContact() {
           <AiFillInstagram size={20} cursor="pointer" />
           <FaFacebookF size={20} cursor="pointer" />
         </Flex>
-        <Textarea
-          placeholder="Write something about us"
-          size="sm"
-          maxH="150px"
-          h="150px"
+        <Box
+          h="auto"
           maxW={{ base: "100%", sm: "80%" }}
           boxShadow="0 5px 5px #00000022"
           borderRadius="7px"
-        />
+          p={5}
+        >
+          <FormattedMessage
+            defaultMessage="
+            Hi we're an experienced software engineers who constantly seek out 
+            innovative solutions to everyday problems. In our period of developing 
+            and finding solutions in this industry, we've honed our analytical 
+            thinking and collaboration skills, and we love working as a team."
+          />
+        </Box>
       </Box>
     </Flex>
   );
