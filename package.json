@@ -21,6 +21,7 @@
     "@fontsource/open-sans": "^4.5.1",
     "@fontsource/roboto": "^4.5.1",
     "@reduxjs/toolkit": "^1.6.1",
+    "axios": "^0.23.0",
     "firebase": "^9.1.1",
     "formik": "^2.2.9",
     "framer-motion": "^4",
@@ -33,6 +34,8 @@
     "react-intl": "^5.20.12",
     "react-redux": "^7.2.5",
     "react-select": "^5.1.0",
+    "react-uuid": "^1.0.2",
+    "uuid": "^8.3.2",
     "yup": "^0.32.11"
   },
   "devDependencies": {
