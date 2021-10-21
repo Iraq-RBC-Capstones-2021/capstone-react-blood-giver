@@ -107,6 +107,7 @@ function Index({ values, errors, touched, handleBlur, handleChange }) {
     );
   }
   return (
+    // runs once the user submits the message
     <>
       <RiCheckboxCircleFill size="30%" color="#979797" />
       <Heading color="primary">
