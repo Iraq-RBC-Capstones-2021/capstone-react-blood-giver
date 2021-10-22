@@ -5,6 +5,7 @@ import { wrapper } from "../store";
 import "../styles/globals.css";
 import { designTheme } from "../styles/theme";
 import NavBar from "../components/Navbar";
+import AuthModal from "../components/AuthModal";
 import Footer from "../components/Footer";
 import LocalizationProvider from "../i18n";
 import useFirebaseAuth from "../firebaseApp/useFirebaseAuth";
@@ -22,6 +23,7 @@ const App = ({ Component, pageProps }) => {
           <GridItem>
             <Component {...pageProps} />
           </GridItem>
+          <AuthModal />
         </Grid>
       </LocalizationProvider>
     </ChakraProvider>
