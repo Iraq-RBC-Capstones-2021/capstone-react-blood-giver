@@ -7,7 +7,11 @@ import { designTheme } from "../styles/theme";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import LocalizationProvider from "../i18n";
+import useFirebaseAuth from "../firebaseApp/useFirebaseAuth";
+
 const App = ({ Component, pageProps }) => {
+  useFirebaseAuth();
+
   return (
     <ChakraProvider theme={designTheme}>
       <LocalizationProvider>
