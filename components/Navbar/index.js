@@ -72,7 +72,7 @@ function Index({ user, ...props }) {
               Donate
             </Button>
           </Link>
-          {user?.uid ? (
+          {user?.id ? (
             <Popover>
               <PopoverTrigger>
                 <Avatar
@@ -100,7 +100,7 @@ function Index({ user, ...props }) {
               my={5}
               backgroundColor="white"
               border="1px solid #C50E29"
-              onClick={props.handleOpenAuthModal}
+              onClick={() => props.handleOpenAuthModal()}
             >
               <FormattedMessage defaultMessage="Log in" />
             </Button>

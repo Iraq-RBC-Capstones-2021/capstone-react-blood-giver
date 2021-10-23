@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 export function serializeGoogleUser(user) {
   if (!user) return {};
   return {
-    uid: user.uid,
+    id: user.uid,
     name: user.displayName,
     email: user.email,
     photo: user.photoURL,
