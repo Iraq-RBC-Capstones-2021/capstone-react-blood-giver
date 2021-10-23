@@ -1,7 +1,7 @@
 import { Box, Flex } from "@chakra-ui/layout";
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import DonorsGrid from "./donorsGrid";
+import DonorsGrid from "./DonorsGrid";
 import BloodType from "../DropDown/BloodType";
 import City from "../DropDown/City";
 import bloodTypesStatus from "../../src/data/bloodTypesStatus";
