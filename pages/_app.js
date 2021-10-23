@@ -4,23 +4,21 @@ import "@fontsource/open-sans";
 import { wrapper } from "../store";
 import "../styles/globals.css";
 import { designTheme } from "../styles/theme";
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
 import LocalizationProvider from "../i18n";
+import useFirebaseAuth from "../firebaseApp/useFirebaseAuth";
+import Layout from "../components/Layout";
+
 const App = ({ Component, pageProps }) => {
+  useFirebaseAuth();
+
   return (
-    <ChakraProvider theme={designTheme}>
-      <LocalizationProvider>
-        <Grid h="100vh">
-          <GridItem>
-            <NavBar />
-          </GridItem>
-          <GridItem>
-            <Component {...pageProps} />
-          </GridItem>
-        </Grid>
-      </LocalizationProvider>
-    </ChakraProvider>
+    <LocalizationProvider>
+      <ChakraProvider theme={designTheme}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ChakraProvider>
+    </LocalizationProvider>
   );
 };
 

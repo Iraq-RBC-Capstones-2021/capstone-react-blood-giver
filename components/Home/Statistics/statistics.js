@@ -9,6 +9,7 @@ const statistics = [
     number: 18,
   },
   {
+    id: "heart",
     icon: Heart,
     label: <FormattedMessage defaultMessage="Donores" />,
     number: 50,

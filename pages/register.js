@@ -4,11 +4,14 @@ import registerSteps from "../components/RegisterSteps";
 import { Center, VStack } from "@chakra-ui/layout";
 import StepperBar from "../components/StepperBar";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 import { useFormik } from "formik";
 import RegisterContext from "../components/RegisterSteps/StateContext";
 import registerSchema from "../components/RegisterSteps/validationSchema";
+import withAuth from "../components/withAuth";
+import { selectUser } from "../store";
 
-export default function Register() {
+function Register() {
   const [eligState, setEligState] = useState({
     isProperWeight: false,
     isProperAge: false,
@@ -16,6 +19,8 @@ export default function Register() {
 
   const { step, goToNextStep, backToPrevStep, CurrentStepComponent } =
     useStepper(registerSteps);
+
+  const user = useSelector(selectUser);
 
   const {
     values,
@@ -27,8 +32,8 @@ export default function Register() {
     handleSubmit,
   } = useFormik({
     initialValues: {
-      name: "",
-      email: "",
+      name: user?.name || "",
+      email: user?.email || "",
       age: "",
       city: "",
       bloodType: "",
@@ -75,3 +80,5 @@ export default function Register() {
     </RegisterContext.Provider>
   );
 }
+
+export default withAuth(Register);
