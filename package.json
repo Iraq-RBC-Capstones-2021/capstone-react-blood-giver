@@ -21,6 +21,7 @@
     "@fontsource/open-sans": "^4.5.1",
     "@fontsource/roboto": "^4.5.1",
     "@reduxjs/toolkit": "^1.6.1",
+    "emailjs-com": "^3.2.0",
     "firebase": "^9.1.1",
     "formik": "^2.2.9",
     "framer-motion": "^4",
