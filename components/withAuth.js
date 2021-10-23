@@ -4,7 +4,6 @@ import Router from "next/router";
 import { selectUser } from "../store";
 import { handleOpenAuthModal } from "../store/setting/settingSlice";
 import ClientSideComponent from "./ClientSideComponent";
-import { CircularProgress, Flex } from "@chakra-ui/react";
 
 const withAuth = (Component) => {
   const Auth = ({ ...props }) => {
@@ -18,14 +17,6 @@ const withAuth = (Component) => {
         Router.push("/");
       }
     }, [user, loading, dispatch]);
-
-    if (loading) {
-      return (
-        <Flex width="full" justify="center">
-          <CircularProgress isIndeterminate color="primary" />
-        </Flex>
-      );
-    }
 
     return <Component {...props} />;
   };
