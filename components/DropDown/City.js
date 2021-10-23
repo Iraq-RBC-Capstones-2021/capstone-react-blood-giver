@@ -1,19 +1,10 @@
-import { Box, Text } from "@chakra-ui/layout";
+import { Box } from "@chakra-ui/layout";
 import { Select } from "@chakra-ui/select";
 import React, { useState } from "react";
 
-function City() {
-  const [city, setCity] = useState("");
-  const cities = [
-    "all",
-    "erbil",
-    "baghdad",
-    "sulaimaniyah",
-    "najaf",
-    "duhok",
-    "basra",
-    "karkuk",
-  ];
+import cityName from "../../src/data/cities";
+function City({ setCity }) {
+  const cities = [{ name: "All" }, ...cityName];
   function handleChange(e) {
     setCity(e.target.value);
   }
@@ -33,8 +24,8 @@ function City() {
         onChange={handleChange}
       >
         {cities.map((city, i) => (
-          <option key={i} value={city}>
-            {city}
+          <option key={i} value={city.name}>
+            {city.name}
           </option>
         ))}
       </Select>
