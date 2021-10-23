@@ -9,7 +9,10 @@ import {
   ModalCloseButton,
   Text,
 } from "@chakra-ui/react";
-import { signInWithGoogle } from "../../store/user/userActions";
+import {
+  signInWithGoogle,
+  signInWithFacebook,
+} from "../../store/user/userActions";
 import { connect } from "react-redux";
 import { handleCloseAuthModal } from "../../store/setting/settingSlice";
 import { FormattedMessage } from "react-intl";
@@ -20,6 +23,14 @@ function AuthModal({ authModalOpen, ...props }) {
   const handleSigninGoogle = () => {
     props
       .signInWithGoogle()
+      .unwrap()
+      .then(() => props.handleCloseAuthModal())
+      .catch(() => {});
+  };
+
+  const handleSigninFacebook = () => {
+    props
+      .signInWithFacebook()
       .unwrap()
       .then(() => props.handleCloseAuthModal())
       .catch(() => {});
@@ -62,7 +73,7 @@ function AuthModal({ authModalOpen, ...props }) {
               borderRadius="full"
               marginY="5"
               bg="#F4F9FF"
-              onClick={() => {}}
+              onClick={handleSigninFacebook}
             >
               <Image
                 src="/assets/facebook.svg"
@@ -84,4 +95,5 @@ const mapStateToProps = ({ setting: { authModalOpen } }) => ({ authModalOpen });
 export default connect(mapStateToProps, {
   handleCloseAuthModal,
   signInWithGoogle,
+  signInWithFacebook,
 })(AuthModal);

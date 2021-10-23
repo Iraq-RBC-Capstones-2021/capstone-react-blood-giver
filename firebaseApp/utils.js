@@ -1,6 +1,6 @@
 import { defineMessage } from "react-intl";
 
-export function serializeGoogleUser(user) {
+export function serializeUser(user) {
   if (!user) return {};
   return {
     id: user.uid,

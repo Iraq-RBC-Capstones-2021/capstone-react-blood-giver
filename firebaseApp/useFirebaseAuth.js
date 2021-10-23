@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { auth } from ".";
 import { setLoading, setUser } from "../store/user/userSlice";
-import { serializeGoogleUser } from "./utils";
+import { serializeUser } from "./utils";
 
 export default function useFirebaseAuthState() {
   const dispatch = useDispatch();
@@ -11,7 +11,7 @@ export default function useFirebaseAuthState() {
   useEffect(() => {
     dispatch(setLoading(true));
     const onChangeUser = (user) => {
-      dispatch(setUser(serializeGoogleUser(user)));
+      dispatch(setUser(serializeUser(user)));
       dispatch(setLoading(false));
     };
     const unsubscribe = onAuthStateChanged(auth, onChangeUser);

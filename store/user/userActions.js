@@ -21,11 +21,25 @@ export const signInWithGoogle = createAsyncThunk(
         dispatch(setSucces(signInSuccess));
       })
       .catch((err) => {
-        console.log("error", err);
         dispatch(setError(err));
       });
   }
 );
+
+export const signInWithFacebook = createAsyncThunk(
+  "auth/signInGoogle",
+  (_, { dispatch }) => {
+    authApi
+      .signInWithFacebook()
+      .then(() => {
+        dispatch(setSucces(signInSuccess));
+      })
+      .catch((err) => {
+        dispatch(setError(err));
+      });
+  }
+);
+
 export const signout = createAsyncThunk("auth/signout", (_, { dispatch }) => {
   authApi
     .signout()
@@ -33,7 +47,6 @@ export const signout = createAsyncThunk("auth/signout", (_, { dispatch }) => {
       dispatch(setSucces(signoutSuccess));
     })
     .catch((err) => {
-      console.log("error", err);
       dispatch(setError(err));
     });
 });

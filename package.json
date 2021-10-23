@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "dev -S": "node server.js",
     "lint": "next lint",
     "prepare": "husky install",
     "prettier": "lint-staged",
