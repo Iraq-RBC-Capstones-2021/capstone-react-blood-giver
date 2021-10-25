@@ -1,6 +1,5 @@
 import { Flex, Text } from "@chakra-ui/layout";
 import { CheckIcon } from "@chakra-ui/icons";
-import React from "react";
 import { Button } from "@chakra-ui/button";
 
 function BloodBox({ data, setData }) {
@@ -15,18 +14,16 @@ function BloodBox({ data, setData }) {
       });
     });
   }
-
   return (
     <>
       {data.map((el, i) => (
-        <Flex key={i} justifyContent="left" marginLeft="1.5" marginY="4">
+        <Flex key={i} justifyContent="left" marginLeft="1.5" marginY="1.5">
           <Button
+            width="5"
             borderRadius="full"
             border="1px"
             borderColor="primary"
             bg={el.checked === true ? "light" : "white"}
-            width="10"
-            height="10"
             onClick={() => handleCheck(el, i)}
           >
             <Text>
@@ -34,7 +31,7 @@ function BloodBox({ data, setData }) {
             </Text>
           </Button>
 
-          <Text alignSelf="center" fontSize="lg" marginX="3">
+          <Text alignSelf="center" fontSize="md" marginX="3">
             {el.bloodType}
           </Text>
         </Flex>

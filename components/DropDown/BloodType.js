@@ -1,20 +1,25 @@
 import React, { useState } from "react";
 import { Box } from "@chakra-ui/layout";
 import { Button } from "@chakra-ui/button";
-import BloodBox from "./BloodBox";
 import ClickAwayListener from "react-click-away-listener";
-function BloodType() {
+import BloodBox from "./BloodBox";
+
+function BloodType({ data, setData }) {
   const [showBox, setShowBox] = useState(false);
-  const [data, setData] = useState([
-    { checked: true, bloodType: "AB-" },
-    { checked: true, bloodType: "AB+" },
-    { checked: true, bloodType: "A" },
-  ]);
+
   function handleBox() {
     setShowBox((prev) => !prev);
   }
   function handleFilter() {
-    const sendNewFilterToRedux = data;
+    setData(
+      data.map((blood) => {
+        if (blood.checked) {
+          return { ...blood, checked: blood.checked === false };
+        } else {
+          return blood;
+        }
+      })
+    );
   }
   return (
     <ClickAwayListener onClickAway={() => setShowBox(false)}>
@@ -30,7 +35,7 @@ function BloodType() {
           Blood Type
         </Button>
         {showBox && (
-          <Box position="absolute" shadow="md" bg="white" zIndex="10">
+          <Box position="absolute" shadow="lg" bg="white" zIndex="10">
             <Box width="36">
               <BloodBox data={data} setData={setData} />
             </Box>
@@ -42,7 +47,7 @@ function BloodType() {
                 width="20"
                 onClick={handleFilter}
               >
-                Filter
+                clear
               </Button>
             </Box>
           </Box>

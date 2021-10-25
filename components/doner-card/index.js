@@ -4,8 +4,9 @@ import { Box } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 import { ImLocation } from "react-icons/im";
 import styles from "../../styles/donerCard.module.css";
+import { number } from "yup";
 
-export default function DonerCard({ name, bloodType, phoneNumber, city }) {
+export default function DonerCard({ name, bloodType, phone, city }) {
   return (
     <>
       <Box
@@ -58,7 +59,7 @@ export default function DonerCard({ name, bloodType, phoneNumber, city }) {
               display="flex"
               alignItems="center"
             >
-              <PhoneIcon w="10px" h="10px" /> {phoneNumber}
+              <PhoneIcon w="10px" h="10px" /> {phone}
             </GridItem>
             <GridItem
               rowSpan={1}
