@@ -1,10 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { HYDRATE } from "next-redux-wrapper";
+import axios from "axios";
 export const fetchDonors = createAsyncThunk(
   "donorStore/fetchDonorData",
   async () => {
-    const res = await fetch(`http://localhost:3000/api/donors`);
-    return res.json();
+    return await axios
+      .get("http://localhost:3000/api/donors")
+      .then((response) => response.data);
   }
 );
 const moviesSlice = createSlice({

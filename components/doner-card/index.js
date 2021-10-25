@@ -6,7 +6,7 @@ import { ImLocation } from "react-icons/im";
 import styles from "../../styles/donerCard.module.css";
 import { number } from "yup";
 
-export default function DonerCard({ user, bloodType, phone, city }) {
+export default function DonerCard({ name, bloodType, phone, city }) {
   return (
     <>
       <Box
@@ -31,7 +31,7 @@ export default function DonerCard({ user, bloodType, phone, city }) {
             padding="7px"
           >
             <GridItem rowSpan={1} colSpan={3} fontWeight="bold">
-              {user?.name}
+              {name}
             </GridItem>
             <GridItem
               rowSpan={1}
