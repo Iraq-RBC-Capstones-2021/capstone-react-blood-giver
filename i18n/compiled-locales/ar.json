@@ -5,6 +5,12 @@
       "value": "اذ شعرت بالدوار او الاغماء بابساطة قوم بالتمدد الا ان تشعر بتحسن "
     }
   ],
+  "+W3zCv": [
+    {
+      "type": 0,
+      "value": "Account is already used for another sign in method"
+    }
+  ],
   "0jPqLn": [
     {
       "type": 0,
@@ -15,6 +21,12 @@
     {
       "type": 0,
       "value": "سوف نقوم بتوفير علاج  فيزيائي كذالك فحص الدم والضغط لكي نطمأن ان بصحة جيدة تسمح لك بالتبرع"
+    }
+  ],
+  "1qg/FL": [
+    {
+      "type": 0,
+      "value": "Facebook Account"
     }
   ],
   "3xOgpy": [
@@ -53,6 +65,12 @@
       "value": "خطوة ١"
     }
   ],
+  "8Zq/0D": [
+    {
+      "type": 0,
+      "value": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+    }
+  ],
   "8nhOeI": [
     {
       "type": 0,
@@ -63,6 +81,12 @@
     {
       "type": 0,
       "value": "التالي"
+    }
+  ],
+  "9WRlF4": [
+    {
+      "type": 0,
+      "value": "Send"
     }
   ],
   "9oNQSC": [
@@ -77,10 +101,46 @@
       "value": "الأهلية"
     }
   ],
+  "BhcW0c": [
+    {
+      "type": 0,
+      "value": "The request has been canceled because there are multiple opened popups"
+    }
+  ],
   "ByuOj8": [
     {
       "type": 0,
       "value": "البريد الإلكتروني غير صالح"
+    }
+  ],
+  "C81/uG": [
+    {
+      "type": 0,
+      "value": "Logout"
+    }
+  ],
+  "DOx5B4": [
+    {
+      "type": 0,
+      "value": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
+    }
+  ],
+  "EO/33N": [
+    {
+      "type": 0,
+      "value": "Signed in successfully"
+    }
+  ],
+  "EWkjhc": [
+    {
+      "type": 0,
+      "value": "Thanks for your message"
+    }
+  ],
+  "Ehd9xn": [
+    {
+      "type": 0,
+      "value": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
     }
   ],
   "HAlOn1": [
@@ -89,10 +149,46 @@
       "value": "الاسم"
     }
   ],
+  "HGP1gH": [
+    {
+      "type": 0,
+      "value": "Connect us"
+    }
+  ],
+  "HQeGNp": [
+    {
+      "type": 0,
+      "value": "The popup has been blocked by the browser"
+    }
+  ],
+  "Hc+CK/": [
+    {
+      "type": 0,
+      "value": "البحث عن المتبرعين"
+    }
+  ],
+  "I/RPgs": [
+    {
+      "type": 0,
+      "value": "Google Account"
+    }
+  ],
+  "I8yZ9h": [
+    {
+      "type": 0,
+      "value": "Save Life"
+    }
+  ],
   "IFkDw5": [
     {
       "type": 0,
       "value": "المدن"
+    }
+  ],
+  "J4+l6r": [
+    {
+      "type": 0,
+      "value": "Signed out successfully"
     }
   ],
   "JJNc3c": [
@@ -116,7 +212,7 @@
   "K5cQ7H": [
     {
       "type": 0,
-      "value": "قم الهاتف غير صالح"
+      "value": "رقم الهاتف غير صالح"
     }
   ],
   "LJZGVb": [
@@ -131,10 +227,22 @@
       "value": "زمرة الدم"
     }
   ],
+  "NzeJGL": [
+    {
+      "type": 0,
+      "value": "If you want to get some help or just to ask us a question,use the form below."
+    }
+  ],
   "OE+Y9U": [
     {
       "type": 0,
       "value": "تم اضافتك الى المتبرعين  !"
+    }
+  ],
+  "ORyye/": [
+    {
+      "type": 0,
+      "value": "Developer team"
     }
   ],
   "R8PtYu": [
@@ -161,6 +269,12 @@
       "value": "ثلاث ارواح"
     }
   ],
+  "T7Ry38": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
   "TE4fIS": [
     {
       "type": 0,
@@ -185,6 +299,24 @@
       "value": "العمر فوق 60 غير مسموح"
     }
   ],
+  "XZoMoH": [
+    {
+      "type": 0,
+      "value": "Oops, something went wrong"
+    }
+  ],
+  "ZTa/Rj": [
+    {
+      "type": 0,
+      "value": "Sign in With"
+    }
+  ],
+  "ZjDH42": [
+    {
+      "type": 0,
+      "value": "About Us"
+    }
+  ],
   "aYIUar": [
     {
       "type": 0,
@@ -197,10 +329,22 @@
       "value": "أنت الآن أحد الأبطال الذين يساعدون الناس الذين يحتاجون إلى الدم وأنت في متناول المجتمع ، شكرا لك"
     }
   ],
+  "dB7Cln": [
+    {
+      "type": 0,
+      "value": "يمكنك تصفية المتبرعين حسب فصيلة الدم أو المدينة"
+    }
+  ],
   "dZrxtL": [
     {
       "type": 0,
       "value": "ننقذ الارواح"
+    }
+  ],
+  "eEek+s": [
+    {
+      "type": 0,
+      "value": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
     }
   ],
   "eLIPeV": [
@@ -263,6 +407,12 @@
       "value": "هل تعلم ؟"
     }
   ],
+  "odXlk8": [
+    {
+      "type": 0,
+      "value": "Log in"
+    }
+  ],
   "pSFbQB": [
     {
       "type": 0,
@@ -287,6 +437,18 @@
       "value": "طويل جداً"
     }
   ],
+  "rKHqOt": [
+    {
+      "type": 0,
+      "value": "The popup has been closed by the user"
+    }
+  ],
+  "s/4P/W": [
+    {
+      "type": 0,
+      "value": "Get Notified"
+    }
+  ],
   "s0aBmb": [
     {
       "type": 0,
@@ -297,6 +459,24 @@
     {
       "type": 0,
       "value": "البريد الالكتروني"
+    }
+  ],
+  "tf1lIh": [
+    {
+      "type": 0,
+      "value": "Free"
+    }
+  ],
+  "tvf/bG": [
+    {
+      "type": 0,
+      "value": "We solve the problem of blood emergencies by connecting blood donors directly with people in blood need."
+    }
+  ],
+  "w+q+nu": [
+    {
+      "type": 0,
+      "value": "What is this all about?"
     }
   ],
   "xKGP//": [

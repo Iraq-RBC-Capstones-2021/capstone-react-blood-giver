@@ -1,23 +1,25 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
-export const createDonor = createAsyncThunk("donors/create", async (donor) => {
-  await axios.post("/api/donors", donor);
+import { setError, setSucces } from "../status/statusSlice";
+
+const successMsg = defineMessage({
+  defaultMessage: "Request sent !",
 });
 
-const donorsSlice = createSlice({
-  name: "donors",
-  initialState: {
-    status: "idle",
-  },
-
-  extraReducers: {
-    [createDonor.pending]: (state) => {
-      state.status = "loading";
-    },
-    [createDonor.fulfilled]: (state) => {
-      state.status = "success";
-    },
-  },
+const faliureMsg = defineMessage({
+  defaultMessage: "Request failed !",
 });
 
-export default donorsSlice.reducer;
+export const createDonor = createAsyncThunk(
+  "donors/create",
+  (donor, { dispatch }) => {
+    axios
+      .post("/api/donors", donor)
+      .then(() => {
+        dispatch(setSucces(successMsg));
+      })
+      .catch(() => {
+        dispatch(setError(faliureMsg));
+      });
+  }
+);

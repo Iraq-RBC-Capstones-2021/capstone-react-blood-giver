@@ -11,6 +11,10 @@
   "8nhOeI": {
     "defaultMessage": "شكرا لك"
   },
+
+  "Hc+CK/": {
+    "defaultMessage": "البحث عن المتبرعين"
+  },
   "JM5+yp": {
     "defaultMessage": "في هذه الخطوة ، ستملأ بعض المعلومات عن نفسك مثل الاسم والبريد الإلكتروني والمدينة وفصيلة الدم"
   },
@@ -55,6 +59,9 @@
   },
   "g+Kb6R": {
     "defaultMessage": "سوف ينقذ"
+  },
+  "dB7Cln": {
+    "defaultMessage": "يمكنك تصفية المتبرعين حسب فصيلة الدم أو المدينة"
   },
   "mgtt/i": {
     "defaultMessage": "التبرع"
@@ -150,6 +157,91 @@
     "defaultMessage": "تم اضافتك الى المتبرعين  !"
   },
   "K5cQ7H": {
-    "defaultMessage": "قم الهاتف غير صالح"
+    "defaultMessage": "رقم الهاتف غير صالح"
+  },
+  "+W3zCv": {
+    "defaultMessage": "Account is already used for another sign in method"
+  },
+
+  "1qg/FL": {
+    "defaultMessage": "Facebook Account"
+  },
+  "8Zq/0D": {
+    "defaultMessage": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  },
+  "9WRlF4": {
+    "defaultMessage": "Send"
+  },
+  "BhcW0c": {
+    "defaultMessage": "The request has been canceled because there are multiple opened popups"
+  },
+  "C81/uG": {
+    "defaultMessage": "Logout"
+  },
+  "DOx5B4": {
+    "defaultMessage": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
+  },
+  "EO/33N": {
+    "defaultMessage": "Signed in successfully"
+  },
+  "EWkjhc": {
+    "defaultMessage": "Thanks for your message"
+  },
+  "Ehd9xn": {
+    "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  },
+  "HGP1gH": {
+    "defaultMessage": "Connect us"
+  },
+  "HQeGNp": {
+    "defaultMessage": "The popup has been blocked by the browser"
+  },
+  "I/RPgs": {
+    "defaultMessage": "Google Account"
+  },
+  "I8yZ9h": {
+    "defaultMessage": "Save Life"
+  },
+  "J4+l6r": {
+    "defaultMessage": "Signed out successfully"
+  },
+  "NzeJGL": {
+    "defaultMessage": "If you want to get some help or just to ask us a question,use the form below."
+  },
+  "ORyye/": {
+    "defaultMessage": "Developer team"
+  },
+  "T7Ry38": {
+    "defaultMessage": "Message"
+  },
+  "XZoMoH": {
+    "defaultMessage": "Oops, something went wrong"
+  },
+  "ZTa/Rj": {
+    "defaultMessage": "Sign in With"
+  },
+  "ZjDH42": {
+    "defaultMessage": "About Us"
+  },
+  "eEek+s": {
+    "defaultMessage": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+  },
+  "odXlk8": {
+    "defaultMessage": "Log in"
+  },
+  "rKHqOt": {
+    "defaultMessage": "The popup has been closed by the user"
+  },
+  "s/4P/W": {
+    "defaultMessage": "Get Notified"
+  },
+  "tf1lIh": {
+    "defaultMessage": "Free"
+  },
+  "tvf/bG": {
+    "defaultMessage": "We solve the problem of blood emergencies by connecting blood donors directly with people in blood need."
+  },
+  "w+q+nu": {
+    "defaultMessage": "What is this all about?"
   }
 }

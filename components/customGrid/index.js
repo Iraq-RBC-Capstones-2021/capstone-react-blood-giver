@@ -3,8 +3,8 @@ import Image from "next/image";
 function index(props) {
   return (
     <Grid>
-      {props.data.map((item) => (
-        <GridItem key={item.title}>
+      {props.data.map((item, i) => (
+        <GridItem key={i}>
           <Flex
             display={["row", "flex"]}
             justifyContent="space-between"
