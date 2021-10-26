@@ -134,6 +134,27 @@ const RegisterStep = () => {
             />
             <FormErrorMessage>{errors.city}</FormErrorMessage>
           </FormControl>
+
+          <FormControl
+            flex="1"
+            minWidth="40%"
+            id="phone"
+            isRequired={true}
+            isInvalid={Boolean(errors.phone && touched.phone)}
+          >
+            <CustomInput
+              name="phone"
+              value={values.phone}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              type="number"
+              placeholder={intl.formatMessage({
+                defaultMessage: "phone",
+              })}
+            />
+            <FormErrorMessage>{errors.phone}</FormErrorMessage>
+          </FormControl>
+
           <HStack width="full" justify="space-between">
             <CustomButton colorScheme="darkScheme" onClick={backToPrevStep}>
               <FormattedMessage defaultMessage="Previous" />

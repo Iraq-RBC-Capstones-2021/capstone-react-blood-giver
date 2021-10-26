@@ -47,6 +47,12 @@
       "value": "العمر أقل من 16 غير مسموح"
     }
   ],
+  "5C/P6J": [
+    {
+      "type": 0,
+      "value": "فشل الطلب !"
+    }
+  ],
   "5JKGJU": [
     {
       "type": 0,
@@ -203,6 +209,18 @@
       "value": "التبرع الواحد"
     }
   ],
+  "K5cQ7H": [
+    {
+      "type": 0,
+      "value": "رقم الهاتف غير صالح"
+    }
+  ],
+  "LJZGVb": [
+    {
+      "type": 0,
+      "value": "تم ارسال الطلب"
+    }
+  ],
   "NFKtpG": [
     {
       "type": 0,
@@ -213,6 +231,12 @@
     {
       "type": 0,
       "value": "If you want to get some help or just to ask us a question,use the form below."
+    }
+  ],
+  "OE+Y9U": [
+    {
+      "type": 0,
+      "value": "تم اضافتك الى المتبرعين  !"
     }
   ],
   "ORyye/": [
@@ -387,6 +411,12 @@
     {
       "type": 0,
       "value": "Log in"
+    }
+  ],
+  "pSFbQB": [
+    {
+      "type": 0,
+      "value": "حدث شيء خطأ"
     }
   ],
   "qk88Mz": [

@@ -144,7 +144,21 @@
   "sy+pv5": {
     "defaultMessage": "البريد الالكتروني"
   },
-
+  "5C/P6J": {
+    "defaultMessage": "فشل الطلب !"
+  },
+  "pSFbQB": {
+    "defaultMessage": "حدث شيء خطأ"
+  },
+  "LJZGVb": {
+    "defaultMessage": "تم ارسال الطلب"
+  },
+  "OE+Y9U": {
+    "defaultMessage": "تم اضافتك الى المتبرعين  !"
+  },
+  "K5cQ7H": {
+    "defaultMessage": "رقم الهاتف غير صالح"
+  },
   "+W3zCv": {
     "defaultMessage": "Account is already used for another sign in method"
   },

@@ -17,8 +17,8 @@
   "3xOgpy": {
     "defaultMessage": "I'm Afraid I'll Faint"
   },
-  "9WRlF4": {
-    "defaultMessage": "Send"
+  "4+EIGl": {
+    "defaultMessage": "Donores"
   },
   "4G5DSg": {
     "defaultMessage": "Can't be under 16"
@@ -35,8 +35,8 @@
   "8nhOeI": {
     "defaultMessage": "Thank you"
   },
-  "HQeGNp": {
-    "defaultMessage": "The popup has been blocked by the browser"
+  "9+Ddtu": {
+    "defaultMessage": "Next"
   },
   "9WRlF4": {
     "defaultMessage": "Send"
@@ -44,8 +44,8 @@
   "9oNQSC": {
     "defaultMessage": "Age"
   },
-  "I8yZ9h": {
-    "defaultMessage": "Save Life"
+  "BFaN95": {
+    "defaultMessage": "Eligibility"
   },
   "BhcW0c": {
     "defaultMessage": "The request has been canceled because there are multiple opened popups"
@@ -58,6 +58,9 @@
   },
   "DOx5B4": {
     "defaultMessage": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
+  },
+  "DnGPPa": {
+    "defaultMessage": "phone"
   },
   "EO/33N": {
     "defaultMessage": "Signed in successfully"
@@ -76,6 +79,9 @@
   },
   "HQeGNp": {
     "defaultMessage": "The popup has been blocked by the browser"
+  },
+  "Hc+CK/": {
+    "defaultMessage": "Find Donors"
   },
   "I/RPgs": {
     "defaultMessage": "Google Account"
@@ -149,6 +155,9 @@
   "apIdgF": {
     "defaultMessage": "Let's go, you are now one of the heroes who help people who need blood and you are in the reach of society, thank you"
   },
+  "dB7Cln": {
+    "defaultMessage": "You can filter the donors by the blood type or the city"
+  },
   "dZrxtL": {
     "defaultMessage": "We Save Lives"
   },
@@ -181,6 +190,9 @@
   },
   "n4zsNo": {
     "defaultMessage": "Did you know ?"
+  },
+  "oR2Zwh": {
+    "defaultMessage": "Phone number is invalid"
   },
   "odXlk8": {
     "defaultMessage": "Log in"

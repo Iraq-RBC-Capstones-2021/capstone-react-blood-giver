@@ -4,10 +4,12 @@ import registerSteps from "../components/RegisterSteps";
 import { Center, VStack } from "@chakra-ui/layout";
 import StepperBar from "../components/StepperBar";
 import { useState } from "react";
-import { useSelector } from "react-redux";
 import { useFormik } from "formik";
 import RegisterContext from "../components/RegisterSteps/StateContext";
 import registerSchema from "../components/RegisterSteps/validationSchema";
+import { useDispatch, useSelector } from "react-redux";
+import { createDonor } from "../store/donors";
+import uuid from "react-uuid";
 import withAuth from "../components/withAuth";
 import { selectUser } from "../store";
 
@@ -16,10 +18,10 @@ function Register() {
     isProperWeight: false,
     isProperAge: false,
   });
-
   const { step, goToNextStep, backToPrevStep, CurrentStepComponent } =
     useStepper(registerSteps);
-
+  const distpatch = useDispatch();
+  const state = useSelector((data) => data.donors);
   const user = useSelector(selectUser);
 
   const {
@@ -37,11 +39,13 @@ function Register() {
       age: "",
       city: "",
       bloodType: "",
+      id: user?.id || null,
+      phone: null,
     },
     validationSchema: registerSchema,
     validateOnBlur: true,
-    onSubmit: (values) => {
-      goToNextStep && goToNextStep();
+    onSubmit: (donor) => {
+      distpatch(createDonor({ donor, goToNextStep }));
     },
   });
 
