@@ -44,14 +44,8 @@ function Register() {
     },
     validationSchema: registerSchema,
     validateOnBlur: true,
-    onSubmit: (values) => {
-      distpatch(createDonor(values));
-      // if (state.status === "success") {
-      //   onSuccess();
-      //   goToNextStep();
-      // } else if (state.status === "rejected") {
-      //   onFailure();
-      // }
+    onSubmit: (donor) => {
+      distpatch(createDonor({ donor, goToNextStep }));
     },
   });
 
