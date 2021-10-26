@@ -2,7 +2,6 @@ import { doc, setDoc } from "@firebase/firestore";
 import { db } from "../../../firebaseApp/index";
 export default async function handler(req, res) {
   const donor = req.body;
-
   if (req.method === "POST") {
     try {
       await setDoc(doc(db, "donors", donor.id), {
@@ -13,6 +12,7 @@ export default async function handler(req, res) {
         city: donor.city,
         bloodType: donor.bloodType,
         createdAt: new Date(),
+        phone: donor.phone,
       });
       res.status(200).json("Donor added Successfully");
     } catch (err) {
