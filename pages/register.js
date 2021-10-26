@@ -39,7 +39,7 @@ function Register() {
       age: "",
       city: "",
       bloodType: "",
-      id: uuid(),
+      id: user?.id || null,
       phone: null,
     },
     validationSchema: registerSchema,
