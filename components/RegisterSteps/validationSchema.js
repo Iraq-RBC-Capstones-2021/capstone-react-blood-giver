@@ -16,6 +16,11 @@ const registerSchema = Yup.object().shape({
     .integer(),
   city: Yup.string().required(),
   bloodType: Yup.string().required(),
+  phone: Yup.number().test(
+    "len",
+    <FormattedMessage defaultMessage="Phone number is invalid" />,
+    (val) => val.toString().length === 11
+  ),
 });
 
 export default registerSchema;
