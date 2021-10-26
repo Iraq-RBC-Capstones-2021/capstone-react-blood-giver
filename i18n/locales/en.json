@@ -17,9 +17,6 @@
   "4G5DSg": {
     "defaultMessage": "Can't be under 16"
   },
-  "5C/P6J": {
-    "defaultMessage": "Request failed !"
-  },
   "5JKGJU": {
     "defaultMessage": "Really sorry you are not eligible !!"
   },
@@ -50,6 +47,9 @@
   "DOx5B4": {
     "defaultMessage": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
   },
+  "DnGPPa": {
+    "defaultMessage": "phone"
+  },
   "Ehd9xn": {
     "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
   },
@@ -74,17 +74,11 @@
   "JpkCu5": {
     "defaultMessage": "One blood"
   },
-  "LJZGVb": {
-    "defaultMessage": "Request sent"
-  },
   "NFKtpG": {
     "defaultMessage": "Blood Type"
   },
   "NzeJGL": {
     "defaultMessage": "If you want to get some help or just to ask us a question,use the form below."
-  },
-  "OE+Y9U": {
-    "defaultMessage": "We've register you as donor !"
   },
   "ORyye/": {
     "defaultMessage": "Developer team"
@@ -158,8 +152,8 @@
   "n4zsNo": {
     "defaultMessage": "Did you know ?"
   },
-  "pSFbQB": {
-    "defaultMessage": "something wrong happened !"
+  "oR2Zwh": {
+    "defaultMessage": "Phone number is invalid"
   },
   "qk88Mz": {
     "defaultMessage": "fear of needles certainly prevents some people from donating blood. But it is worth to spend a few minutes facing your fears to save someone’s live."

@@ -35,12 +35,6 @@
       "value": "Can't be under 16"
     }
   ],
-  "5C/P6J": [
-    {
-      "type": 0,
-      "value": "Request failed !"
-    }
-  ],
   "5JKGJU": [
     {
       "type": 0,
@@ -101,6 +95,12 @@
       "value": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
     }
   ],
+  "DnGPPa": [
+    {
+      "type": 0,
+      "value": "phone"
+    }
+  ],
   "Ehd9xn": [
     {
       "type": 0,
@@ -149,12 +149,6 @@
       "value": "One blood"
     }
   ],
-  "LJZGVb": [
-    {
-      "type": 0,
-      "value": "Request sent"
-    }
-  ],
   "NFKtpG": [
     {
       "type": 0,
@@ -165,12 +159,6 @@
     {
       "type": 0,
       "value": "If you want to get some help or just to ask us a question,use the form below."
-    }
-  ],
-  "OE+Y9U": [
-    {
-      "type": 0,
-      "value": "We've register you as donor !"
     }
   ],
   "ORyye/": [
@@ -317,10 +305,10 @@
       "value": "Did you know ?"
     }
   ],
-  "pSFbQB": [
+  "oR2Zwh": [
     {
       "type": 0,
-      "value": "something wrong happened !"
+      "value": "Phone number is invalid"
     }
   ],
   "qk88Mz": [
