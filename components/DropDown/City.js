@@ -24,8 +24,8 @@ function City({ setCity }) {
         onChange={handleChange}
       >
         {cities.map((city, i) => (
-          <option key={i} value={city.name}>
-            {city.name}
+          <option key={i} value={city.value}>
+            {city.value}
           </option>
         ))}
       </Select>
