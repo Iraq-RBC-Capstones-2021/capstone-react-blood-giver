@@ -32,6 +32,7 @@ const CustomSelect = ({
         option: (base, props) => ({
           ...base,
           backgroundColor: props.isSelected ? color : base.backgroundColor,
+          color: designTheme?.colors?.primary,
         }),
         dropdownIndicator: (base, props) => ({
           ...base,

@@ -31,7 +31,7 @@ function Container() {
   return (
     <>
       <Box display="flex" justifyContent="center">
-        <City setCity={setCity} />
+        <City setCity={setCity} city={city} />
         <BloodType data={data} setData={setData} />
       </Box>
       <Flex wrap="wrap" gridGap="20px" marginY="5" justifyContent="center">
