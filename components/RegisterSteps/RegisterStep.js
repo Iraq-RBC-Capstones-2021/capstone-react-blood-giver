@@ -145,9 +145,8 @@ const RegisterStep = () => {
               value={values.phone}
               onChange={handleChange}
               onBlur={handleBlur}
-              type="number"
               placeholder={intl.formatMessage({
-                defaultMessage: "phone",
+                defaultMessage: "Phone",
               })}
             />
             <FormErrorMessage>{errors.phone}</FormErrorMessage>
