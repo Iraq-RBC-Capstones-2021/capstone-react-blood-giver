@@ -3,9 +3,9 @@ import { Button } from "@chakra-ui/react";
 import { FormattedMessage } from "react-intl";
 const Pages = [
   { title: <FormattedMessage defaultMessage="Home" />, route: "/" },
-  { title: <FormattedMessage defaultMessage="Contact" />, route: "/Contact" },
-  { title: <FormattedMessage defaultMessage="Donores" />, route: "/Donores" },
-  { title: <FormattedMessage defaultMessage="About" />, route: "/About" },
+  { title: <FormattedMessage defaultMessage="Contact" />, route: "/contact" },
+  { title: <FormattedMessage defaultMessage="Donores" />, route: "/donores" },
+  { title: <FormattedMessage defaultMessage="About" />, route: "/about" },
 ];
 function index() {
   return Pages.map((item, i) => (
