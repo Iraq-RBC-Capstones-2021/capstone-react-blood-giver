@@ -11,7 +11,7 @@
     "prepare": "husky install",
     "prettier": "lint-staged",
     "test": "jest --watch",
-    "extract:i18n": "formatjs extract \"{pages,components,firebaseApp,store}/**/*.{js,jsx}\" --id-interpolation-pattern [sha512:contenthash:base64:6] --out-file i18n/locales/en.json",
+    "extract:i18n": "formatjs extract \"{pages,components,firebaseApp,store,src}/**/*.{js,jsx}\" --id-interpolation-pattern [sha512:contenthash:base64:6] --out-file i18n/locales/en.json",
     "compile:i18n": "formatjs compile-folder --ast i18n/locales i18n/compiled-locales"
   },
   "dependencies": {

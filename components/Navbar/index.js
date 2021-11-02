@@ -74,7 +74,7 @@ function Index({ user, ...props }) {
                 color: "primary",
               }}
             >
-              Donate
+              <FormattedMessage defaultMessage="Donate" />
             </Button>
           </Link>
           {user?.id ? (
