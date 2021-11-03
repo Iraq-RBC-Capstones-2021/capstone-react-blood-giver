@@ -5,6 +5,15 @@
   "+W3zCv": {
     "defaultMessage": "Account is already used for another sign in method"
   },
+  "/GdEJG": {
+    "defaultMessage": "Duhok"
+  },
+  "/oNE8Q": {
+    "defaultMessage": "How It Works"
+  },
+  "0EJxmR": {
+    "defaultMessage": "Al-Qādisiyyah"
+  },
   "0jPqLn": {
     "defaultMessage": "Blood Giver"
   },
@@ -13,6 +22,9 @@
   },
   "1qg/FL": {
     "defaultMessage": "Facebook Account"
+  },
+  "2IFGap": {
+    "defaultMessage": "Donate"
   },
   "3xOgpy": {
     "defaultMessage": "I'm Afraid I'll Faint"
@@ -23,14 +35,26 @@
   "4G5DSg": {
     "defaultMessage": "Can't be under 16"
   },
+  "508HK2": {
+    "defaultMessage": "We work with network partners to connect blood donors and recipients through a web application"
+  },
+  "5C/P6J": {
+    "defaultMessage": "Request failed !"
+  },
   "5JKGJU": {
     "defaultMessage": "Really sorry you are not eligible !!"
   },
   "5m9eHD": {
     "defaultMessage": "Step 1"
   },
-  "8Zq/0D": {
-    "defaultMessage": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  "89V4H8": {
+    "defaultMessage": "Halabja"
+  },
+  "8aQqfO": {
+    "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons"
+  },
+  "8cspZX": {
+    "defaultMessage": "Maysan"
   },
   "8nhOeI": {
     "defaultMessage": "Thank you"
@@ -44,6 +68,9 @@
   "9oNQSC": {
     "defaultMessage": "Age"
   },
+  "AAkPHN": {
+    "defaultMessage": "Basra"
+  },
   "BFaN95": {
     "defaultMessage": "Eligibility"
   },
@@ -56,11 +83,14 @@
   "C81/uG": {
     "defaultMessage": "Logout"
   },
+  "CHcYLV": {
+    "defaultMessage": "Dhi Qar"
+  },
+  "D5jpqM": {
+    "defaultMessage": "Karbala"
+  },
   "DOx5B4": {
     "defaultMessage": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
-  },
-  "DnGPPa": {
-    "defaultMessage": "phone"
   },
   "EO/33N": {
     "defaultMessage": "Signed in successfully"
@@ -68,8 +98,14 @@
   "EWkjhc": {
     "defaultMessage": "Thanks for your message"
   },
-  "Ehd9xn": {
-    "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  "EawfZS": {
+    "defaultMessage": "Wasit"
+  },
+  "F0OPIA": {
+    "defaultMessage": "Common Concerns"
+  },
+  "GEaiXV": {
+    "defaultMessage": "Erbil"
   },
   "HAlOn1": {
     "defaultMessage": "Name"
@@ -86,9 +122,6 @@
   "I/RPgs": {
     "defaultMessage": "Google Account"
   },
-  "I8yZ9h": {
-    "defaultMessage": "Save Life"
-  },
   "IFkDw5": {
     "defaultMessage": "Cities"
   },
@@ -104,17 +137,38 @@
   "JpkCu5": {
     "defaultMessage": "One blood"
   },
+  "KaN1p6": {
+    "defaultMessage": "Najaf"
+  },
   "NFKtpG": {
     "defaultMessage": "Blood Type"
   },
   "NzeJGL": {
     "defaultMessage": "If you want to get some help or just to ask us a question,use the form below."
   },
+  "O95R3Z": {
+    "defaultMessage": "Phone"
+  },
   "ORyye/": {
     "defaultMessage": "Developer team"
   },
+  "OiwwBj": {
+    "defaultMessage": "Mosul"
+  },
+  "Onsbut": {
+    "defaultMessage": "Muthanna"
+  },
+  "PTGgL/": {
+    "defaultMessage": "Nineveh"
+  },
+  "R1e920": {
+    "defaultMessage": "Babylon"
+  },
   "R8PtYu": {
     "defaultMessage": "Congratulations, You’re able to give blood."
+  },
+  "S9bpVN": {
+    "defaultMessage": "Al Anbar"
   },
   "SABfLp": {
     "defaultMessage": "Is it Safe to Donate?"
@@ -137,14 +191,29 @@
   "VD79MZ": {
     "defaultMessage": "Find Donores"
   },
+  "Ve+lbz": {
+    "defaultMessage": "Saladin"
+  },
+  "WkrNSk": {
+    "defaultMessage": "English"
+  },
   "WxIf83": {
     "defaultMessage": "Can't be above 60"
   },
   "XZoMoH": {
     "defaultMessage": "Oops, something went wrong"
   },
+  "ZMfO7H": {
+    "defaultMessage": "Baghdad"
+  },
+  "ZNwrZ4": {
+    "defaultMessage": "Our ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+  },
   "ZTa/Rj": {
     "defaultMessage": "Sign in With"
+  },
+  "ZcEWZf": {
+    "defaultMessage": "Baquba"
   },
   "ZjDH42": {
     "defaultMessage": "About Us"
@@ -155,23 +224,38 @@
   "apIdgF": {
     "defaultMessage": "Let's go, you are now one of the heroes who help people who need blood and you are in the reach of society, thank you"
   },
+  "axcV7b": {
+    "defaultMessage": "Kirkuk"
+  },
+  "b65tj4": {
+    "defaultMessage": "Request sent !"
+  },
   "dB7Cln": {
     "defaultMessage": "You can filter the donors by the blood type or the city"
   },
   "dZrxtL": {
     "defaultMessage": "We Save Lives"
   },
-  "eEek+s": {
-    "defaultMessage": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+  "ejEGdx": {
+    "defaultMessage": "Home"
   },
   "eohFfF": {
     "defaultMessage": "Too short!"
   },
+  "fQ5yno": {
+    "defaultMessage": "Arabic"
+  },
   "g+Kb6R": {
     "defaultMessage": "Could saves up"
   },
+  "g5pX+a": {
+    "defaultMessage": "About"
+  },
   "gQhbDv": {
     "defaultMessage": "In the first step, we are asking you two questions to know if you are ready and eligible for donating blood"
+  },
+  "imvZ0M": {
+    "defaultMessage": "Sulaymaniyah"
   },
   "lH0lvy": {
     "defaultMessage": "Are you above 16?"
@@ -196,6 +280,9 @@
   },
   "odXlk8": {
     "defaultMessage": "Log in"
+  },
+  "pUN2YO": {
+    "defaultMessage": "Tikrit"
   },
   "qk88Mz": {
     "defaultMessage": "fear of needles certainly prevents some people from donating blood. But it is worth to spend a few minutes facing your fears to save someone’s live."
@@ -229,5 +316,14 @@
   },
   "xKGP//": {
     "defaultMessage": "Find blood donors near your location"
+  },
+  "ydsoVC": {
+    "defaultMessage": "Diyala"
+  },
+  "zFegDD": {
+    "defaultMessage": "Contact"
+  },
+  "zQvVDJ": {
+    "defaultMessage": "All"
   }
 }

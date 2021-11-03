@@ -29,6 +29,24 @@
       "value": "Facebook Account"
     }
   ],
+  "2IFGap": [
+    {
+      "type": 0,
+      "value": "تبرع "
+    }
+  ],
+  "2NfniW": [
+    {
+      "type": 0,
+      "value": ".نقوم بحل مشكلة طوارئ الدم من خلال ربط المتبرعين بالدم مباشرة مع المحتاجين للدم"
+    }
+  ],
+  "3dqsvA": [
+    {
+      "type": 0,
+      "value": "متبرعين"
+    }
+  ],
   "3xOgpy": [
     {
       "type": 0,
@@ -38,7 +56,7 @@
   "4+EIGl": [
     {
       "type": 0,
-      "value": "المتبرعون"
+      "value": "متبرع"
     }
   ],
   "4G5DSg": [
@@ -63,6 +81,12 @@
     {
       "type": 0,
       "value": "خطوة ١"
+    }
+  ],
+  "6qF/vN": [
+    {
+      "type": 0,
+      "value": "الاحكام و الشروط"
     }
   ],
   "8Zq/0D": [
@@ -143,6 +167,12 @@
       "value": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
     }
   ],
+  "F0OPIA": [
+    {
+      "type": 0,
+      "value": " مخاوف مشتركه "
+    }
+  ],
   "HAlOn1": [
     {
       "type": 0,
@@ -182,7 +212,7 @@
   "IFkDw5": [
     {
       "type": 0,
-      "value": "المدن"
+      "value": "مدينة"
     }
   ],
   "J4+l6r": [
@@ -219,6 +249,18 @@
     {
       "type": 0,
       "value": "تم ارسال الطلب"
+    }
+  ],
+  "LNrCse": [
+    {
+      "type": 0,
+      "value": "كيف تتم علمية التبرع ؟"
+    }
+  ],
+  "MWqJpn": [
+    {
+      "type": 0,
+      "value": "إمكانية الوصول"
     }
   ],
   "NFKtpG": [
@@ -353,6 +395,12 @@
       "value": "مرحبا في موقع التبرع بالدم"
     }
   ],
+  "ejEGdx": [
+    {
+      "type": 0,
+      "value": "الصفحة الرئيسية"
+    }
+  ],
   "eohFfF": [
     {
       "type": 0,
@@ -365,10 +413,22 @@
       "value": "سوف ينقذ"
     }
   ],
+  "g5pX+a": [
+    {
+      "type": 0,
+      "value": "من نحن"
+    }
+  ],
   "gQhbDv": [
     {
       "type": 0,
       "value": "في الخطوة الأولى ، نطرح عليك سؤالين لمعرفة ما إذا كنت جاهزًا ومؤهلًا للتبرع بالدم"
+    }
+  ],
+  "iSM+et": [
+    {
+      "type": 0,
+      "value": "جميع الحقوق محفوظة"
     }
   ],
   "lH0lvy": [
@@ -455,6 +515,12 @@
       "value": "لااحب استخدام الابر الطبية "
     }
   ],
+  "sp8t0Q": [
+    {
+      "type": 0,
+      "value": "الخصوصية"
+    }
+  ],
   "sy+pv5": [
     {
       "type": 0,
@@ -467,12 +533,6 @@
       "value": "Free"
     }
   ],
-  "tvf/bG": [
-    {
-      "type": 0,
-      "value": "We solve the problem of blood emergencies by connecting blood donors directly with people in blood need."
-    }
-  ],
   "w+q+nu": [
     {
       "type": 0,
@@ -483,6 +543,12 @@
     {
       "type": 0,
       "value": "تعرف على المتبرعين القريبين من موقعك "
+    }
+  ],
+  "zFegDD": [
+    {
+      "type": 0,
+      "value": "اتصل بنا"
     }
   ]
 }

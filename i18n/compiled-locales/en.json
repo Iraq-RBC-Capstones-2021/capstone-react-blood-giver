@@ -29,6 +29,24 @@
       "value": "Facebook Account"
     }
   ],
+  "2IFGap": [
+    {
+      "type": 0,
+      "value": "Donate"
+    }
+  ],
+  "2NfniW": [
+    {
+      "type": 0,
+      "value": "We solve the problem of blood emerggencies by connecting blood donors"
+    }
+  ],
+  "3dqsvA": [
+    {
+      "type": 0,
+      "value": "Donors"
+    }
+  ],
   "3xOgpy": [
     {
       "type": 0,
@@ -47,6 +65,12 @@
       "value": "Can't be under 16"
     }
   ],
+  "5C/P6J": [
+    {
+      "type": 0,
+      "value": "Request failed !"
+    }
+  ],
   "5JKGJU": [
     {
       "type": 0,
@@ -57,6 +81,12 @@
     {
       "type": 0,
       "value": "Step 1"
+    }
+  ],
+  "6qF/vN": [
+    {
+      "type": 0,
+      "value": "Terms and Conditions"
     }
   ],
   "8Zq/0D": [
@@ -143,6 +173,12 @@
       "value": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
     }
   ],
+  "F0OPIA": [
+    {
+      "type": 0,
+      "value": "Common Concerns"
+    }
+  ],
   "HAlOn1": [
     {
       "type": 0,
@@ -207,6 +243,18 @@
     {
       "type": 0,
       "value": "One blood"
+    }
+  ],
+  "LNrCse": [
+    {
+      "type": 0,
+      "value": "How it works ?"
+    }
+  ],
+  "MWqJpn": [
+    {
+      "type": 0,
+      "value": "Accesabillity"
     }
   ],
   "NFKtpG": [
@@ -311,6 +359,12 @@
       "value": "Let's go, you are now one of the heroes who help people who need blood and you are in the reach of society, thank you"
     }
   ],
+  "b65tj4": [
+    {
+      "type": 0,
+      "value": "Request sent !"
+    }
+  ],
   "dB7Cln": [
     {
       "type": 0,
@@ -329,6 +383,12 @@
       "value": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
     }
   ],
+  "ejEGdx": [
+    {
+      "type": 0,
+      "value": "Home"
+    }
+  ],
   "eohFfF": [
     {
       "type": 0,
@@ -341,10 +401,22 @@
       "value": "Could saves up"
     }
   ],
+  "g5pX+a": [
+    {
+      "type": 0,
+      "value": "About"
+    }
+  ],
   "gQhbDv": [
     {
       "type": 0,
       "value": "In the first step, we are asking you two questions to know if you are ready and eligible for donating blood"
+    }
+  ],
+  "iSM+et": [
+    {
+      "type": 0,
+      "value": "All rights reserved"
     }
   ],
   "lH0lvy": [
@@ -363,6 +435,12 @@
     {
       "type": 0,
       "value": "Is your current weight is more than 50kg (110 pounds)?"
+    }
+  ],
+  "lyuDpv": [
+    {
+      "type": 0,
+      "value": "directly with people in blood need"
     }
   ],
   "mgtt/i": [
@@ -431,6 +509,12 @@
       "value": "I Don't Like Needles"
     }
   ],
+  "sp8t0Q": [
+    {
+      "type": 0,
+      "value": "Privacy and Cockies"
+    }
+  ],
   "sy+pv5": [
     {
       "type": 0,
@@ -459,6 +543,12 @@
     {
       "type": 0,
       "value": "Find blood donors near your location"
+    }
+  ],
+  "zFegDD": [
+    {
+      "type": 0,
+      "value": "Contact"
     }
   ]
 }
