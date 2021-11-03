@@ -23,7 +23,9 @@
   "2IFGap": {
     "defaultMessage": "Donate"
   },
-
+  "2NfniW": {
+    "defaultMessage": "We solve the problem of blood emerggencies by connecting blood donors"
+  },
   "3dqsvA": {
     "defaultMessage": "Donors"
   },
@@ -44,6 +46,9 @@
   },
   "5m9eHD": {
     "defaultMessage": "Step 1"
+  },
+  "6qF/vN": {
+    "defaultMessage": "Terms and Conditions"
   },
   "89V4H8": {
     "defaultMessage": "Halabja"
@@ -135,6 +140,12 @@
   "KaN1p6": {
     "defaultMessage": "Najaf"
   },
+  "LNrCse": {
+    "defaultMessage": "How it works ?"
+  },
+  "MWqJpn": {
+    "defaultMessage": "Accesabillity"
+  },
   "NFKtpG": {
     "defaultMessage": "Blood Type"
   },
@@ -183,6 +194,9 @@
   "TVyg5p": {
     "defaultMessage": "Registration completed successfully"
   },
+  "VD79MZ": {
+    "defaultMessage": "Find Donores"
+  },
   "Ve+lbz": {
     "defaultMessage": "Saladin"
   },
@@ -192,7 +206,6 @@
   "WnQ/AZ": {
     "defaultMessage": "Contact us"
   },
-
   "WxIf83": {
     "defaultMessage": "Can't be above 60"
   },
@@ -253,6 +266,9 @@
   "gQhbDv": {
     "defaultMessage": "In the first step, we are asking you two questions to know if you are ready and eligible for donating blood"
   },
+  "iSM+et": {
+    "defaultMessage": "All rights reserved"
+  },
   "imvZ0M": {
     "defaultMessage": "Sulaymaniyah"
   },
@@ -300,6 +316,9 @@
   },
   "s0aBmb": {
     "defaultMessage": "I Don't Like Needles"
+  },
+  "sp8t0Q": {
+    "defaultMessage": "Privacy and Cockies"
   },
   "sy+pv5": {
     "defaultMessage": "Email"
