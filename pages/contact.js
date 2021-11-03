@@ -27,7 +27,7 @@ function Contact() {
     <Container maxW="container.sm">
       <Flex flexDirection="column" alignItems="center" justifyContent="center">
         <Text color="light" fontSize="60px" pb="5">
-          <FormattedMessage defaultMessage="Connect us" />
+          <FormattedMessage defaultMessage="Contact us" />
         </Text>
         <Text fontSize="22px" mb="20px" align="center">
           <FormattedMessage

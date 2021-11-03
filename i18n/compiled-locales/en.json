@@ -35,12 +35,6 @@
       "value": "Blood Giver"
     }
   ],
-  "1kSPXR": [
-    {
-      "type": 0,
-      "value": "You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure."
-    }
-  ],
   "1qg/FL": [
     {
       "type": 0,
@@ -53,16 +47,16 @@
       "value": "Donate"
     }
   ],
+  "3dqsvA": [
+    {
+      "type": 0,
+      "value": "Donors"
+    }
+  ],
   "3xOgpy": [
     {
       "type": 0,
       "value": "I'm Afraid I'll Faint"
-    }
-  ],
-  "4+EIGl": [
-    {
-      "type": 0,
-      "value": "Donores"
     }
   ],
   "4G5DSg": [
@@ -221,12 +215,6 @@
       "value": "Name"
     }
   ],
-  "HGP1gH": [
-    {
-      "type": 0,
-      "value": "Connect us"
-    }
-  ],
   "HQeGNp": [
     {
       "type": 0,
@@ -377,12 +365,6 @@
       "value": "Registration completed successfully"
     }
   ],
-  "VD79MZ": [
-    {
-      "type": 0,
-      "value": "Find Donores"
-    }
-  ],
   "Ve+lbz": [
     {
       "type": 0,
@@ -393,6 +375,12 @@
     {
       "type": 0,
       "value": "English"
+    }
+  ],
+  "WnQ/AZ": [
+    {
+      "type": 0,
+      "value": "Contact us"
     }
   ],
   "WxIf83": [
@@ -471,6 +459,12 @@
     {
       "type": 0,
       "value": "We Save Lives"
+    }
+  ],
+  "eZXjMc": [
+    {
+      "type": 0,
+      "value": "You’ll even be given a mini-physical test at your appointment, to ensure you are healthy enough to donate on that day. We’ll check your temperature and blood pressure."
     }
   ],
   "ejEGdx": [

@@ -20,7 +20,7 @@ const index = () => {
           _hover={{ bg: "light" }}
           leftIcon={<BsSuitHeartFill color="white" />}
         >
-          <FormattedMessage defaultMessage="Find Donores" />
+          <FormattedMessage defaultMessage="Find Donors" />
         </Button>
       </Box>
     </Flex>

@@ -87,8 +87,8 @@ function Index({ user, ...props }) {
                   src={user?.photo}
                 />
               </PopoverTrigger>
-              <PopoverContent width="200px" bg="light">
-                <PopoverArrow bg="light" />
+              <PopoverContent width="200px">
+                <PopoverArrow />
                 <PopoverHeader>
                   <Text color="primary">{user?.name}</Text>
                 </PopoverHeader>

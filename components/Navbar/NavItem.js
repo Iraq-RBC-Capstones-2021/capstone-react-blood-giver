@@ -4,7 +4,7 @@ import { FormattedMessage } from "react-intl";
 const Pages = [
   { title: <FormattedMessage defaultMessage="Home" />, route: "/" },
   { title: <FormattedMessage defaultMessage="Contact" />, route: "/contact" },
-  { title: <FormattedMessage defaultMessage="Donores" />, route: "/donores" },
+  { title: <FormattedMessage defaultMessage="Donors" />, route: "/donors" },
   { title: <FormattedMessage defaultMessage="About" />, route: "/about" },
 ];
 function index() {
