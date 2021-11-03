@@ -1,4 +1,4 @@
-import Illustration from "../../public/svgIcon/illustration_en.gif";
+import Illustration from "../../public/svgIcon/Illustration_en.gif";
 import Image from "next/dist/client/image";
 import { Box } from "@chakra-ui/react";
 import { FormattedMessage } from "react-intl";
