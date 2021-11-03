@@ -1,6 +1,9 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import { BsSuitHeartFill } from "react-icons/bs";
 import { FormattedMessage } from "react-intl";
+
+import NextLink from "next/link";
+
 const index = () => {
   return (
     <Flex direction="column" gridGap="5px">
@@ -14,14 +17,16 @@ const index = () => {
         <FormattedMessage defaultMessage="Find blood donors near your location" />
       </Text>
       <Box my="10">
-        <Button
-          color="white"
-          bg="primary"
-          _hover={{ bg: "light" }}
-          leftIcon={<BsSuitHeartFill color="white" />}
-        >
-          <FormattedMessage defaultMessage="Find Donores" />
-        </Button>
+        <NextLink href="/Donors" passHref>
+          <Button
+            color="white"
+            bg="primary"
+            _hover={{ bg: "light" }}
+            leftIcon={<BsSuitHeartFill color="white" />}
+          >
+            <FormattedMessage defaultMessage="Find Donores" />
+          </Button>
+        </NextLink>
       </Box>
     </Flex>
   );
