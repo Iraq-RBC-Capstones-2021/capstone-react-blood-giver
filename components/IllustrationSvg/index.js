@@ -1,4 +1,4 @@
-import Illustration_en from "../../public/svgIcon/illustration_en.gif";
+import Illustration from "../../public/svgIcon/illustration_en.gif";
 import Image from "next/dist/client/image";
 import { Box } from "@chakra-ui/react";
 import { FormattedMessage } from "react-intl";
@@ -17,7 +17,7 @@ function Index() {
         </Text>
         <Image
           alt="illustration"
-          src={Illustration_en}
+          src={Illustration}
           height={1600}
           width={2600}
         />
