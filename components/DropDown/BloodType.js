@@ -30,7 +30,7 @@ function BloodType({ data, setData }) {
           border="1px"
           bg="white"
           textColor="primary"
-          marginLeft="3"
+          mx={5}
           onClick={handleBox}
         >
           <FormattedMessage defaultMessage="Blood Type" />

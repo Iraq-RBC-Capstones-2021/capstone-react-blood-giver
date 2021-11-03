@@ -17,7 +17,7 @@ function BloodBox({ data, setData }) {
   return (
     <>
       {data.map((el, i) => (
-        <Flex key={i} justifyContent="left" marginLeft="1.5" marginY="1.5">
+        <Flex key={i} justifyContent="left">
           <Button
             width="5"
             borderRadius="full"
