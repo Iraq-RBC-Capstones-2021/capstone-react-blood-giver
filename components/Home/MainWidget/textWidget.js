@@ -17,7 +17,7 @@ const index = () => {
         <FormattedMessage defaultMessage="Find blood donors near your location" />
       </Text>
       <Box my="10">
-        <NextLink href="/Donors" passHref>
+        <NextLink href="/donors" passHref>
           <Button
             color="white"
             bg="primary"

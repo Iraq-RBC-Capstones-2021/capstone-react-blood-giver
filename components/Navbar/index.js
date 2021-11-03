@@ -21,13 +21,14 @@ import DesktopContent from "./DesktopContent";
 import MobileContent from "./MobileContent";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import Link from "next/link";
+import Image from "next/image";
 import { FormattedMessage } from "react-intl";
 import { connect } from "react-redux";
 import { handleOpenAuthModal } from "../../store/setting/settingSlice";
 import { signout } from "../../store/user/userActions";
 import langIcon from "../../public/svgIcon/langIcon.svg";
 import useLocaleSwitch from "../../i18n/useLocaleSwitch";
-
+import Logo from "../../public/svgIcon/logo.svg";
 function Index({ user, ...props }) {
   const [display, changeDisplay] = useState("none");
 
@@ -36,8 +37,8 @@ function Index({ user, ...props }) {
   return (
     <Container maxW="container.xl">
       <Flex width="100%">
-        <Box my="5" px="3">
-          logo
+        <Box mt="5" px="3">
+          <Image src={Logo} alt="logo" width={60} height={60} />
         </Box>
         <Spacer />
         <Flex>
@@ -93,7 +94,11 @@ function Index({ user, ...props }) {
                   <Text color="primary">{user?.name}</Text>
                 </PopoverHeader>
                 <PopoverBody>
-                  <Button onClick={props.signout} colorScheme="darkScheme">
+                  <Button
+                    onClick={props.signout}
+                    mx="5"
+                    colorScheme="darkScheme"
+                  >
                     <FormattedMessage defaultMessage="Logout" />
                   </Button>
                 </PopoverBody>
@@ -102,7 +107,7 @@ function Index({ user, ...props }) {
           ) : (
             <Button
               color="primary"
-              my={5}
+              m={5}
               backgroundColor="white"
               border="1px solid #C50E29"
               onClick={() => props.handleOpenAuthModal()}

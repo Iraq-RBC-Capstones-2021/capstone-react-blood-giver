@@ -15,7 +15,12 @@ function Index() {
         <Text fontSize="40" color="light" my="8" textAlign="center">
           <FormattedMessage defaultMessage="How it works ?" />
         </Text>
-        <Image alt="illustration" src={Illustration_en} height={1600} />
+        <Image
+          alt="illustration"
+          src={Illustration_en}
+          height={1600}
+          width={2600}
+        />
       </Box>
     </Container>
   );
