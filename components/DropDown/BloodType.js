@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/layout";
 import { Button } from "@chakra-ui/button";
 import ClickAwayListener from "react-click-away-listener";
 import BloodBox from "./BloodBox";
+import { FormattedMessage } from "react-intl";
 
 function BloodType({ data, setData }) {
   const [showBox, setShowBox] = useState(false);
@@ -32,7 +33,7 @@ function BloodType({ data, setData }) {
           marginLeft="3"
           onClick={handleBox}
         >
-          Blood Type
+          <FormattedMessage defaultMessage="Blood Type" />
         </Button>
         {showBox && (
           <Box position="absolute" shadow="lg" bg="white" zIndex="10">

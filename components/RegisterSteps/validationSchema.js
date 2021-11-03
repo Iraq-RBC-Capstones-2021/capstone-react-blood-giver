@@ -1,6 +1,8 @@
 import { FormattedMessage } from "react-intl";
 import * as Yup from "yup";
 
+const iraqiPhoneRegEx = /^07([0-9]{9})$/;
+
 const registerSchema = Yup.object().shape({
   name: Yup.string()
     .min(2, <FormattedMessage defaultMessage="Too short!" />)
@@ -16,11 +18,11 @@ const registerSchema = Yup.object().shape({
     .integer(),
   city: Yup.string().required(),
   bloodType: Yup.string().required(),
-  phone: Yup.number().test(
-    "len",
-    <FormattedMessage defaultMessage="Phone number is invalid" />,
-    (val) => val.toString().length === 11
-  ),
+  phone: Yup.string()
+    .required()
+    .matches(iraqiPhoneRegEx, {
+      message: <FormattedMessage defaultMessage="Phone number is invalid" />,
+    }),
 });
 
 export default registerSchema;

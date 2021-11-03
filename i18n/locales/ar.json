@@ -11,7 +11,6 @@
   "8nhOeI": {
     "defaultMessage": "شكرا لك"
   },
-
   "Hc+CK/": {
     "defaultMessage": "البحث عن المتبرعين"
   },
@@ -25,16 +24,13 @@
     "defaultMessage": "مرحبا في موقع التبرع بالدم"
   },
   "+GQsnE": {
-    "defaultMessage": "اذ شعرت بالدوار او الاغماء بابساطة قوم بالتمدد الا ان تشعر بتحسن "
+    "defaultMessage": "إذا شعرت بالدوار او الإغماء، بابساطة قم بالتمدد ببساطة  حتى تشعر بتحسن "
   },
   "0jPqLn": {
     "defaultMessage": "المتبرعين بالدم"
   },
-  "1kSPXR": {
-    "defaultMessage": "سوف نقوم بتوفير علاج  فيزيائي كذالك فحص الدم والضغط لكي نطمأن ان بصحة جيدة تسمح لك بالتبرع"
-  },
   "3xOgpy": {
-    "defaultMessage": " اخاف ان اتعرض للاغماء"
+    "defaultMessage": " أخاف أن أتعرض للإغماء"
   },
   "4+EIGl": {
     "defaultMessage": "المتبرعون"
@@ -52,7 +48,7 @@
     "defaultMessage": "ثلاث ارواح"
   },
   "VD79MZ": {
-    "defaultMessage": "ابحث عن متبعين"
+    "defaultMessage": "ابحث عن متبرعين"
   },
   "dZrxtL": {
     "defaultMessage": "ننقذ الارواح"
@@ -70,7 +66,7 @@
     "defaultMessage": "هل تعلم ؟"
   },
   "qk88Mz": {
-    "defaultMessage": "الخوف من الابر الطبية بالتأكيد يمنع العديد من الناس من التبرع بالدم لكن الامر ستحق ان تواجة مخاوفك لبضع دقائق من اجل ان تنقذ حياة الناس "
+    "defaultMessage": "الخوف من الابر الطبية بالتأكيد يمنع العديد من الناس من التبرع بالدم لكن الامر يستحق ان تواجة مخاوفك لبضع دقائق من اجل ان تنقذ حياة الناس "
   },
   "s0aBmb": {
     "defaultMessage": "لااحب استخدام الابر الطبية "
@@ -160,88 +156,202 @@
     "defaultMessage": "رقم الهاتف غير صالح"
   },
   "+W3zCv": {
-    "defaultMessage": "Account is already used for another sign in method"
+    "defaultMessage": "هذا الحساب متسخدم مسبقاً في طريقة تسجيل دخول ثانية"
   },
 
   "1qg/FL": {
-    "defaultMessage": "Facebook Account"
+    "defaultMessage": "حساب فيسبوك"
   },
   "8Zq/0D": {
-    "defaultMessage": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+    "defaultMessage": "نحن نعمل مع شركائنا على وصل المتبرعين بالدم مع المحتاجين عن طريق تطبيق ويب"
   },
   "9WRlF4": {
-    "defaultMessage": "Send"
+    "defaultMessage": "إرسال"
   },
   "BhcW0c": {
-    "defaultMessage": "The request has been canceled because there are multiple opened popups"
+    "defaultMessage": "تم إلغاء الطلب بسبب وجود عدة نوافذ منبثقة مفتوحة"
   },
   "C81/uG": {
-    "defaultMessage": "Logout"
+    "defaultMessage": "تسجيل خروج"
   },
   "DOx5B4": {
-    "defaultMessage": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
+    "defaultMessage": "مرحباً نحن فريق من المطورين نقوم دائماً بإيجاد حلول ابتكارية لجميع المشاكل. قمنا ببناء مهارات تحليلة وتعاونية من خلال عملنا الدائم في هذه الصناعة، ونحب العمل كفريق أيضاُ"
   },
   "EO/33N": {
-    "defaultMessage": "Signed in successfully"
+    "defaultMessage": "تم تسجيل الدخول بنجاح"
   },
   "EWkjhc": {
-    "defaultMessage": "Thanks for your message"
+    "defaultMessage": "شكراً على تواصلم"
   },
-  "Ehd9xn": {
-    "defaultMessage": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+  "8aQqfO": {
+    "defaultMessage": "نحن منظمة غير ربحية هدفنا القيام بكل ما هو ضروري لحماية الأشخاص المعرضين للخطر"
   },
   "HGP1gH": {
-    "defaultMessage": "Connect us"
+    "defaultMessage": "اتصل بنا"
   },
   "HQeGNp": {
-    "defaultMessage": "The popup has been blocked by the browser"
+    "defaultMessage": "تم حجب النافذة المنبثة من قبل المتصفح"
   },
   "I/RPgs": {
-    "defaultMessage": "Google Account"
+    "defaultMessage": "حساب غوغل"
   },
   "I8yZ9h": {
-    "defaultMessage": "Save Life"
+    "defaultMessage": "حماية الحياة"
   },
   "J4+l6r": {
-    "defaultMessage": "Signed out successfully"
+    "defaultMessage": "تم تسجيل الخروج بنجاح"
   },
   "NzeJGL": {
-    "defaultMessage": "If you want to get some help or just to ask us a question,use the form below."
+    "defaultMessage": "هل تحتاج إلى المساعدة، أو فقط تود طرح سؤال ما؟ استخدم المربع النص أدناه"
   },
   "ORyye/": {
-    "defaultMessage": "Developer team"
+    "defaultMessage": "فريق التطوير"
   },
   "T7Ry38": {
-    "defaultMessage": "Message"
+    "defaultMessage": "الرسالة"
   },
   "XZoMoH": {
-    "defaultMessage": "Oops, something went wrong"
+    "defaultMessage": "حدث خطأ ما!"
   },
   "ZTa/Rj": {
-    "defaultMessage": "Sign in With"
+    "defaultMessage": "تسجيل الدخول باستخدام"
   },
   "ZjDH42": {
-    "defaultMessage": "About Us"
+    "defaultMessage": "عنّا"
   },
-  "eEek+s": {
-    "defaultMessage": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+  "ZNwrZ4": {
+    "defaultMessage": "هدفنا النهائي هو تأمين وسيلة سريعة، فعّالة، موثوقة، سهلة الاستخدام والوصول للحصول على الدم، مجاناً"
   },
   "odXlk8": {
-    "defaultMessage": "Log in"
+    "defaultMessage": "تسجيل الدخول"
   },
   "rKHqOt": {
-    "defaultMessage": "The popup has been closed by the user"
+    "defaultMessage": "تم إغلاق النافذة المنبثقة من قبل المستخدم"
   },
   "s/4P/W": {
-    "defaultMessage": "Get Notified"
+    "defaultMessage": "ابقَ على تحديث دائم"
   },
   "tf1lIh": {
-    "defaultMessage": "Free"
+    "defaultMessage": "مجاني"
   },
   "tvf/bG": {
-    "defaultMessage": "We solve the problem of blood emergencies by connecting blood donors directly with people in blood need."
+    "defaultMessage": "نحن نحل مشكلة احتياجات الدم الطارئة عن طريق وصل المتبرعين مباشرةً مع الأشخاص المحتاجين"
   },
   "w+q+nu": {
-    "defaultMessage": "What is this all about?"
+    "defaultMessage": "عمَّ يدور هذا؟"
+  },
+  "O95R3Z": {
+    "defaultMessage": "الهاتف"
+  },
+  "WkrNSk": {
+    "defaultMessage": "الإتجليزية"
+  },
+  "b65tj4": {
+    "defaultMessage": "تم إرسال الطلب"
+  },
+  "fQ5yno": {
+    "defaultMessage": "العربية"
+  },
+  "oR2Zwh": {
+    "defaultMessage": "رقم الهاتف غير صالح"
+  },
+  "zQvVDJ": {
+    "defaultMessage": "الجميع"
+  },
+  "508HK2": {
+    "defaultMessage": "نحن نعمل مع شركائنا على وصل المتبرعين بالدم مع المحتاجين عن طريق تطبيق ويب"
+  },
+  "2IFGap": {
+    "defaultMessage": "التبرع"
+  },
+  "/GdEJG": {
+    "defaultMessage": "دهوك"
+  },
+  "0EJxmR": {
+    "defaultMessage": "القادسية"
+  },
+  "89V4H8": {
+    "defaultMessage": "حلبجة"
+  },
+  "8cspZX": {
+    "defaultMessage": "ميسان"
+  },
+  "AAkPHN": {
+    "defaultMessage": "البصرة"
+  },
+  "CHcYLV": {
+    "defaultMessage": "ذي قار"
+  },
+  "D5jpqM": {
+    "defaultMessage": "كربلاء"
+  },
+  "EawfZS": {
+    "defaultMessage": "الوسيط"
+  },
+  "GEaiXV": {
+    "defaultMessage": "أربيل"
+  },
+  "KaN1p6": {
+    "defaultMessage": "النجف"
+  },
+  "OiwwBj": {
+    "defaultMessage": "الموصل"
+  },
+  "Onsbut": {
+    "defaultMessage": "المثنى"
+  },
+  "PTGgL/": {
+    "defaultMessage": "نينوى"
+  },
+  "R1e920": {
+    "defaultMessage": "بابل"
+  },
+  "S9bpVN": {
+    "defaultMessage": "الأنبار"
+  },
+  "Ve+lbz": {
+    "defaultMessage": "صلاح الدين"
+  },
+  "ZMfO7H": {
+    "defaultMessage": "بغداد"
+  },
+  "ZcEWZf": {
+    "defaultMessage": "بعقوبة"
+  },
+  "axcV7b": {
+    "defaultMessage": "كركوك"
+  },
+  "ejEGdx": {
+    "defaultMessage": "الرئيسية"
+  },
+  "g5pX+a": {
+    "defaultMessage": "حول الموقع"
+  },
+  "imvZ0M": {
+    "defaultMessage": "السليمانية"
+  },
+  "pUN2YO": {
+    "defaultMessage": "تكريت"
+  },
+  "ydsoVC": {
+    "defaultMessage": "ديالا"
+  },
+  "zFegDD": {
+    "defaultMessage": "اتصال"
+  },
+  "F0OPIA": {
+    "defaultMessage": "مخاوف شائعة"
+  },
+  "/oNE8Q": {
+    "defaultMessage": "آلية العمل"
+  },
+  "3dqsvA": {
+    "defaultMessage": "المتبرعين"
+  },
+  "WnQ/AZ": {
+    "defaultMessage": "تواصل معنا"
+  },
+  "eZXjMc": {
+    "defaultMessage": "سوف نقوم بتوفير فحص  فيزيائي كفحص الحرارة وضغط الدم لكي نطمأن أنك بصحة جيدة تسمح لك بالتبرع"
   }
 }

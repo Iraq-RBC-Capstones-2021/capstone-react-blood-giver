@@ -11,16 +11,28 @@
       "value": "Account is already used for another sign in method"
     }
   ],
+  "/GdEJG": [
+    {
+      "type": 0,
+      "value": "Duhok"
+    }
+  ],
+  "/oNE8Q": [
+    {
+      "type": 0,
+      "value": "How It Works"
+    }
+  ],
+  "0EJxmR": [
+    {
+      "type": 0,
+      "value": "Al-Qādisiyyah"
+    }
+  ],
   "0jPqLn": [
     {
       "type": 0,
       "value": "Blood Giver"
-    }
-  ],
-  "1kSPXR": [
-    {
-      "type": 0,
-      "value": "You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure."
     }
   ],
   "1qg/FL": [
@@ -29,22 +41,40 @@
       "value": "Facebook Account"
     }
   ],
+  "2IFGap": [
+    {
+      "type": 0,
+      "value": "Donate"
+    }
+  ],
+  "3dqsvA": [
+    {
+      "type": 0,
+      "value": "Donors"
+    }
+  ],
   "3xOgpy": [
     {
       "type": 0,
       "value": "I'm Afraid I'll Faint"
     }
   ],
-  "4+EIGl": [
-    {
-      "type": 0,
-      "value": "Donores"
-    }
-  ],
   "4G5DSg": [
     {
       "type": 0,
       "value": "Can't be under 16"
+    }
+  ],
+  "508HK2": [
+    {
+      "type": 0,
+      "value": "We work with network partners to connect blood donors and recipients through a web application"
+    }
+  ],
+  "5C/P6J": [
+    {
+      "type": 0,
+      "value": "Request failed !"
     }
   ],
   "5JKGJU": [
@@ -59,10 +89,22 @@
       "value": "Step 1"
     }
   ],
-  "8Zq/0D": [
+  "89V4H8": [
     {
       "type": 0,
-      "value": "Save Life Connect works with network partners to connect blood donors and recipients through an We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+      "value": "Halabja"
+    }
+  ],
+  "8aQqfO": [
+    {
+      "type": 0,
+      "value": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons"
+    }
+  ],
+  "8cspZX": [
+    {
+      "type": 0,
+      "value": "Maysan"
     }
   ],
   "8nhOeI": [
@@ -89,6 +131,12 @@
       "value": "Age"
     }
   ],
+  "AAkPHN": [
+    {
+      "type": 0,
+      "value": "Basra"
+    }
+  ],
   "BFaN95": [
     {
       "type": 0,
@@ -113,16 +161,22 @@
       "value": "Logout"
     }
   ],
+  "CHcYLV": [
+    {
+      "type": 0,
+      "value": "Dhi Qar"
+    }
+  ],
+  "D5jpqM": [
+    {
+      "type": 0,
+      "value": "Karbala"
+    }
+  ],
   "DOx5B4": [
     {
       "type": 0,
       "value": "Hi we're an experienced software engineers who constantly seek out innovative solutions to everyday problems. In our period of developing and finding solutions in this industry, we've honed our analytical thinking and collaboration skills, and we love working as a team."
-    }
-  ],
-  "DnGPPa": [
-    {
-      "type": 0,
-      "value": "phone"
     }
   ],
   "EO/33N": [
@@ -137,22 +191,28 @@
       "value": "Thanks for your message"
     }
   ],
-  "Ehd9xn": [
+  "EawfZS": [
     {
       "type": 0,
-      "value": "We are a non profit foundation and our main objective is to make sure that everything is done to protect vulnerable persons. Help us by making a gift !"
+      "value": "Wasit"
+    }
+  ],
+  "F0OPIA": [
+    {
+      "type": 0,
+      "value": "Common Concerns"
+    }
+  ],
+  "GEaiXV": [
+    {
+      "type": 0,
+      "value": "Erbil"
     }
   ],
   "HAlOn1": [
     {
       "type": 0,
       "value": "Name"
-    }
-  ],
-  "HGP1gH": [
-    {
-      "type": 0,
-      "value": "Connect us"
     }
   ],
   "HQeGNp": [
@@ -171,12 +231,6 @@
     {
       "type": 0,
       "value": "Google Account"
-    }
-  ],
-  "I8yZ9h": [
-    {
-      "type": 0,
-      "value": "Save Life"
     }
   ],
   "IFkDw5": [
@@ -209,6 +263,12 @@
       "value": "One blood"
     }
   ],
+  "KaN1p6": [
+    {
+      "type": 0,
+      "value": "Najaf"
+    }
+  ],
   "NFKtpG": [
     {
       "type": 0,
@@ -221,16 +281,52 @@
       "value": "If you want to get some help or just to ask us a question,use the form below."
     }
   ],
+  "O95R3Z": [
+    {
+      "type": 0,
+      "value": "Phone"
+    }
+  ],
   "ORyye/": [
     {
       "type": 0,
       "value": "Developer team"
     }
   ],
+  "OiwwBj": [
+    {
+      "type": 0,
+      "value": "Mosul"
+    }
+  ],
+  "Onsbut": [
+    {
+      "type": 0,
+      "value": "Muthanna"
+    }
+  ],
+  "PTGgL/": [
+    {
+      "type": 0,
+      "value": "Nineveh"
+    }
+  ],
+  "R1e920": [
+    {
+      "type": 0,
+      "value": "Babylon"
+    }
+  ],
   "R8PtYu": [
     {
       "type": 0,
       "value": "Congratulations, You’re able to give blood."
+    }
+  ],
+  "S9bpVN": [
+    {
+      "type": 0,
+      "value": "Al Anbar"
     }
   ],
   "SABfLp": [
@@ -269,10 +365,22 @@
       "value": "Registration completed successfully"
     }
   ],
-  "VD79MZ": [
+  "Ve+lbz": [
     {
       "type": 0,
-      "value": "Find Donores"
+      "value": "Saladin"
+    }
+  ],
+  "WkrNSk": [
+    {
+      "type": 0,
+      "value": "English"
+    }
+  ],
+  "WnQ/AZ": [
+    {
+      "type": 0,
+      "value": "Contact us"
     }
   ],
   "WxIf83": [
@@ -287,10 +395,28 @@
       "value": "Oops, something went wrong"
     }
   ],
+  "ZMfO7H": [
+    {
+      "type": 0,
+      "value": "Baghdad"
+    }
+  ],
+  "ZNwrZ4": [
+    {
+      "type": 0,
+      "value": "Our ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+    }
+  ],
   "ZTa/Rj": [
     {
       "type": 0,
       "value": "Sign in With"
+    }
+  ],
+  "ZcEWZf": [
+    {
+      "type": 0,
+      "value": "Baquba"
     }
   ],
   "ZjDH42": [
@@ -311,6 +437,18 @@
       "value": "Let's go, you are now one of the heroes who help people who need blood and you are in the reach of society, thank you"
     }
   ],
+  "axcV7b": [
+    {
+      "type": 0,
+      "value": "Kirkuk"
+    }
+  ],
+  "b65tj4": [
+    {
+      "type": 0,
+      "value": "Request sent !"
+    }
+  ],
   "dB7Cln": [
     {
       "type": 0,
@@ -323,10 +461,16 @@
       "value": "We Save Lives"
     }
   ],
-  "eEek+s": [
+  "eZXjMc": [
     {
       "type": 0,
-      "value": "Save Life Connect's ultimate goal is to provide an easy-to-use, easy-to-access, fast, efficient, and reliable way to get life-saving blood, totally Free of cost"
+      "value": "You’ll even be given a mini-physical test at your appointment, to ensure you are healthy enough to donate on that day. We’ll check your temperature and blood pressure."
+    }
+  ],
+  "ejEGdx": [
+    {
+      "type": 0,
+      "value": "Home"
     }
   ],
   "eohFfF": [
@@ -335,16 +479,34 @@
       "value": "Too short!"
     }
   ],
+  "fQ5yno": [
+    {
+      "type": 0,
+      "value": "Arabic"
+    }
+  ],
   "g+Kb6R": [
     {
       "type": 0,
       "value": "Could saves up"
     }
   ],
+  "g5pX+a": [
+    {
+      "type": 0,
+      "value": "About"
+    }
+  ],
   "gQhbDv": [
     {
       "type": 0,
       "value": "In the first step, we are asking you two questions to know if you are ready and eligible for donating blood"
+    }
+  ],
+  "imvZ0M": [
+    {
+      "type": 0,
+      "value": "Sulaymaniyah"
     }
   ],
   "lH0lvy": [
@@ -393,6 +555,12 @@
     {
       "type": 0,
       "value": "Log in"
+    }
+  ],
+  "pUN2YO": [
+    {
+      "type": 0,
+      "value": "Tikrit"
     }
   ],
   "qk88Mz": [
@@ -459,6 +627,24 @@
     {
       "type": 0,
       "value": "Find blood donors near your location"
+    }
+  ],
+  "ydsoVC": [
+    {
+      "type": 0,
+      "value": "Diyala"
+    }
+  ],
+  "zFegDD": [
+    {
+      "type": 0,
+      "value": "Contact"
+    }
+  ],
+  "zQvVDJ": [
+    {
+      "type": 0,
+      "value": "All"
     }
   ]
 }

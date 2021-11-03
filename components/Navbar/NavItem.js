@@ -1,10 +1,11 @@
 import NextLink from "next/link";
 import { Button } from "@chakra-ui/react";
+import { FormattedMessage } from "react-intl";
 const Pages = [
-  { title: "Home", route: "/" },
-  { title: "Contact", route: "/Contact" },
-  { title: "Donores", route: "/Donores" },
-  { title: "About", route: "/About" },
+  { title: <FormattedMessage defaultMessage="Home" />, route: "/" },
+  { title: <FormattedMessage defaultMessage="Contact" />, route: "/contact" },
+  { title: <FormattedMessage defaultMessage="Donors" />, route: "/donors" },
+  { title: <FormattedMessage defaultMessage="About" />, route: "/about" },
 ];
 function index() {
   return Pages.map((item, i) => (

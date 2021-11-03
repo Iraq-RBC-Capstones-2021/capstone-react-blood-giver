@@ -59,7 +59,7 @@ export default function DonerCard({ name, bloodType, phone, city }) {
               display="flex"
               alignItems="center"
             >
-              <PhoneIcon w="10px" h="10px" /> {phone}
+              <PhoneIcon w="10px" h="10px" margin="0 5px" /> {phone}
             </GridItem>
             <GridItem
               rowSpan={1}

@@ -15,6 +15,7 @@ import {
   PopoverBody,
   PopoverArrow,
   Text,
+  VStack,
 } from "@chakra-ui/react";
 import DesktopContent from "./DesktopContent";
 import MobileContent from "./MobileContent";
@@ -24,9 +25,13 @@ import { FormattedMessage } from "react-intl";
 import { connect } from "react-redux";
 import { handleOpenAuthModal } from "../../store/setting/settingSlice";
 import { signout } from "../../store/user/userActions";
+import langIcon from "../../public/svgIcon/langIcon.svg";
+import useLocaleSwitch from "../../i18n/useLocaleSwitch";
 
 function Index({ user, ...props }) {
   const [display, changeDisplay] = useState("none");
+
+  const { switchLocale, currentLocale } = useLocaleSwitch();
 
   return (
     <Container maxW="container.xl">
@@ -69,7 +74,7 @@ function Index({ user, ...props }) {
                 color: "primary",
               }}
             >
-              Donate
+              <FormattedMessage defaultMessage="Donate" />
             </Button>
           </Link>
           {user?.id ? (
@@ -82,8 +87,8 @@ function Index({ user, ...props }) {
                   src={user?.photo}
                 />
               </PopoverTrigger>
-              <PopoverContent width="200px" bg="light">
-                <PopoverArrow bg="light" />
+              <PopoverContent width="200px">
+                <PopoverArrow />
                 <PopoverHeader>
                   <Text color="primary">{user?.name}</Text>
                 </PopoverHeader>
@@ -105,6 +110,42 @@ function Index({ user, ...props }) {
               <FormattedMessage defaultMessage="Log in" />
             </Button>
           )}
+
+          <Popover>
+            <PopoverTrigger>
+              <Avatar
+                backgroundColor="white"
+                cursor="pointer"
+                size="sm"
+                name={currentLocale}
+                src={langIcon?.src}
+                fontSize="32"
+              />
+            </PopoverTrigger>
+            <PopoverContent width="100px">
+              <PopoverArrow />
+              <PopoverBody>
+                <VStack>
+                  <Button
+                    colorScheme={
+                      currentLocale === "en" ? "primaryScheme" : "gray"
+                    }
+                    onClick={() => switchLocale("en")}
+                  >
+                    <FormattedMessage defaultMessage="English" />
+                  </Button>
+                  <Button
+                    colorScheme={
+                      currentLocale === "ar" ? "primaryScheme" : "gray"
+                    }
+                    onClick={() => switchLocale("ar")}
+                  >
+                    <FormattedMessage defaultMessage="Arabic" />
+                  </Button>
+                </VStack>
+              </PopoverBody>
+            </PopoverContent>
+          </Popover>
         </Flex>
       </Flex>
     </Container>

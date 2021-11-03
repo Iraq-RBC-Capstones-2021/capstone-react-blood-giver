@@ -35,7 +35,7 @@ function index({ direction, interval }) {
   return (
     <>
       <Text fontSize="40" color="light" my="8" textAlign="center">
-        How It Works
+        <FormattedMessage defaultMessage="How It Works" />
       </Text>
       <Structure slides={slides} direction={direction} interval={interval} />
     </>
