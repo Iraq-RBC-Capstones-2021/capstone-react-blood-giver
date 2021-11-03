@@ -1,8 +1,8 @@
 import { Text, Container, Flex } from "@chakra-ui/react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { useFormik } from "formik";
-import validationSchema from "../../components/Contact/contactValidation";
-import FormInput from "../../components/Contact/FormInput";
+import validationSchema from "../components/Contact/contactValidation";
+import FormInput from "../components/Contact/FormInput";
 function Contact() {
   const {
     values,
@@ -27,7 +27,7 @@ function Contact() {
     <Container maxW="container.sm">
       <Flex flexDirection="column" alignItems="center" justifyContent="center">
         <Text color="light" fontSize="60px" pb="5">
-          <FormattedMessage defaultMessage="Connect us" />
+          <FormattedMessage defaultMessage="Contact us" />
         </Text>
         <Text fontSize="22px" mb="20px" align="center">
           <FormattedMessage

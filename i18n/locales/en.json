@@ -17,20 +17,18 @@
   "0jPqLn": {
     "defaultMessage": "Blood Giver"
   },
-  "1kSPXR": {
-    "defaultMessage": "You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure."
-  },
   "1qg/FL": {
     "defaultMessage": "Facebook Account"
   },
   "2IFGap": {
     "defaultMessage": "Donate"
   },
+
+  "3dqsvA": {
+    "defaultMessage": "Donors"
+  },
   "3xOgpy": {
     "defaultMessage": "I'm Afraid I'll Faint"
-  },
-  "4+EIGl": {
-    "defaultMessage": "Donores"
   },
   "4G5DSg": {
     "defaultMessage": "Can't be under 16"
@@ -110,9 +108,6 @@
   "HAlOn1": {
     "defaultMessage": "Name"
   },
-  "HGP1gH": {
-    "defaultMessage": "Connect us"
-  },
   "HQeGNp": {
     "defaultMessage": "The popup has been blocked by the browser"
   },
@@ -188,15 +183,16 @@
   "TVyg5p": {
     "defaultMessage": "Registration completed successfully"
   },
-  "VD79MZ": {
-    "defaultMessage": "Find Donores"
-  },
   "Ve+lbz": {
     "defaultMessage": "Saladin"
   },
   "WkrNSk": {
     "defaultMessage": "English"
   },
+  "WnQ/AZ": {
+    "defaultMessage": "Contact us"
+  },
+
   "WxIf83": {
     "defaultMessage": "Can't be above 60"
   },
@@ -235,6 +231,9 @@
   },
   "dZrxtL": {
     "defaultMessage": "We Save Lives"
+  },
+  "eZXjMc": {
+    "defaultMessage": "You’ll even be given a mini-physical test at your appointment, to ensure you are healthy enough to donate on that day. We’ll check your temperature and blood pressure."
   },
   "ejEGdx": {
     "defaultMessage": "Home"

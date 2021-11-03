@@ -25,7 +25,7 @@ const concerns = [
     icon: protection,
     title: <FormattedMessage defaultMessage="Is it Safe to Donate?" />,
     text: (
-      <FormattedMessage defaultMessage="You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure." />
+      <FormattedMessage defaultMessage="You’ll even be given a mini-physical test at your appointment, to ensure you are healthy enough to donate on that day. We’ll check your temperature and blood pressure." />
     ),
   },
 ];

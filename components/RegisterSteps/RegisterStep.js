@@ -125,12 +125,10 @@ const RegisterStep = () => {
               placeholder={intl.formatMessage({
                 defaultMessage: "City",
               })}
-              value={values.city ? { name: values.city } : ""}
+              value={cities.find((c) => c.value === values.city)}
               onBlur={handleBlur}
-              onChange={(val) => setFieldValue("city", val.name)}
+              onChange={(val) => setFieldValue("city", val.value)}
               options={cities}
-              getOptionLabel={(option) => option.name}
-              getOptionValue={(option) => option.name}
             />
             <FormErrorMessage>{errors.city}</FormErrorMessage>
           </FormControl>
@@ -147,9 +145,8 @@ const RegisterStep = () => {
               value={values.phone}
               onChange={handleChange}
               onBlur={handleBlur}
-              type="number"
               placeholder={intl.formatMessage({
-                defaultMessage: "phone",
+                defaultMessage: "Phone",
               })}
             />
             <FormErrorMessage>{errors.phone}</FormErrorMessage>

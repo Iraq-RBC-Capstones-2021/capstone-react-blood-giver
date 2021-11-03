@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import { Flex, Box, Text } from "@chakra-ui/layout";
-import { Textarea } from "@chakra-ui/textarea";
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
