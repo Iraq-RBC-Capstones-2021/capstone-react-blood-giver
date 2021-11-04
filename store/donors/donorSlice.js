@@ -5,7 +5,7 @@ export const fetchDonors = createAsyncThunk(
   "donorStore/fetchDonorData",
   async () => {
     return await axios
-      .get("https://capstone-react-blood-giver.vercel.app/api/donors")
+      .get("https://capstone-react-blood-giver-ten.vercel.app/api/donors")
       .then((response) => response.data);
   }
 );
