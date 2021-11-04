@@ -18,6 +18,7 @@ const registerSchema = Yup.object().shape({
     .integer(),
   city: Yup.string().required(),
   bloodType: Yup.string().required(),
+
   phone: Yup.string()
     .required()
     .matches(iraqiPhoneRegEx, {

@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import useNotification from "../hooks/useNotification";
 import AuthModal from "./AuthModal";
 import Navbar from "./Navbar";
-
+import Footer from "../components/Footer";
 const Layout = ({ children }) => {
   const loading = useSelector((state) => state?.user?.loading);
   useNotification();
@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
         )}
       </GridItem>
       <AuthModal />
+      <Footer />
     </Grid>
   );
 };
