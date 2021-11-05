@@ -4,9 +4,7 @@ import axios from "axios";
 export const fetchDonors = createAsyncThunk(
   "donorStore/fetchDonorData",
   async () => {
-    return await axios
-      .get("https://capstone-react-blood-giver-ten.vercel.app/api/donors")
-      .then((response) => response.data);
+    return await axios.get("/api/donors").then((response) => response.data);
   }
 );
 const moviesSlice = createSlice({

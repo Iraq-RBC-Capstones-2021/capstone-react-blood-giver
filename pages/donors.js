@@ -1,7 +1,6 @@
 import { Container, Box, Text } from "@chakra-ui/react";
 import { FormattedMessage } from "react-intl";
-import { wrapper } from "../store";
-import { fetchDonors } from "../store/donors/donorSlice";
+
 import ContainerDonors from "../components/donor-content/Container";
 function index() {
   return (
@@ -19,7 +18,4 @@ function index() {
   );
 }
 
-export const getStaticProps = wrapper.getStaticProps((store) => async () => {
-  await store.dispatch(fetchDonors());
-});
 export default index;
